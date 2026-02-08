@@ -1,10 +1,10 @@
-# Sunny Acres Demo Farm
+# Epic Pastures Demo Farm
 
 <!-- Social Preview -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/social-preview-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/social-preview.svg">
-  <img alt="Sunny Acres Demo Farm — happy farm animals on a green field" src=".github/social-preview.svg" width="100%">
+  <img alt="Epic Pastures Demo Farm — happy farm animals on a green field" src=".github/social-preview.svg" width="100%">
 </picture>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -12,7 +12,7 @@
 [![NSIP Integration](https://img.shields.io/badge/NSIP-Integrated-2E7D32)](https://nsip.org)
 [![GitHub Actions](https://img.shields.io/badge/Automation-GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/zircote/nsip-example/actions)
 
-Welcome to the Sunny Acres farm repository — your digital barn for all farm information.
+Welcome to the Epic Pastures farm repository — your digital barn for all farm information.
 
 This repository does two things:
 
@@ -57,16 +57,47 @@ Click the **Issues** tab above, then **New issue** to create a record. Available
 ## How It Works
 
 <picture>
-  <img alt="How Sunny Acres Works — Create records, get automatic genetic enrichment, search your history" src=".github/readme-infographic.svg" width="100%">
+  <img alt="How Epic Pastures Works — Create records, get automatic genetic enrichment, search your history" src=".github/readme-infographic.svg" width="100%">
 </picture>
+
+---
+
+## Automation
+
+This repository uses [GitHub Actions](https://github.com/zircote/nsip-example/actions) workflows and the [NSIP MCP server](https://github.com/zircote/nsip) to automate farm operations.
+
+### Workflows
+
+| Workflow | Trigger | What It Does |
+|----------|---------|--------------|
+| **Flock Action** | Issue opened with `flock-action` label | Auto-assigns [Copilot coding agent](https://docs.github.com/en/copilot) to run the requested flock analysis and produce a report |
+| **Weekly Farm Reminder** | Every Monday at 8:00 AM UTC | Creates a checklist issue with equipment, livestock, crop, and administrative tasks for the week |
+| **Copilot Setup** | Manual (on-demand) | Installs the `nsip` CLI binary and pulls the NSIP Docker image for the Copilot agent environment |
+| **Dependabot Auto-Merge** | Dependabot PR opened | Automatically approves and merges dependency update PRs after CI passes |
+
+### NSIP MCP Server
+
+The [`.mcp.json`](.mcp.json) file configures a Docker-based [MCP](https://modelcontextprotocol.io) server that connects to the National Sheep Improvement Program database (400,000+ sheep). When a breeding record issue is created, the Copilot agent calls NSIP tools to enrich the record with genetic data:
+
+| Tool | Purpose |
+|------|---------|
+| `search` | Find animals by name, ID, or flock |
+| `details` / `profile` | Retrieve individual animal EBVs and indexes |
+| `lineage` / `progeny` | Pedigree and offspring lookup |
+| `compare` / `rank` | Side-by-side comparison or weighted ranking |
+| `inbreeding_check` | Calculate coefficient of inbreeding for a pairing |
+| `mating_recommendations` | Find optimal sires for a given dam |
+| `trait_ranges` / `flock_summary` | Breed percentiles and aggregate flock statistics |
+
+See [`.github/instructions/nsip-mcp.instructions.md`](.github/instructions/nsip-mcp.instructions.md) for the full tool reference.
 
 ---
 
 ## About This Farm
 
-Sunny Acres is a 320-acre diversified operation in the Midwest. We grow corn, soybeans, wheat, and alfalfa, and raise beef cattle, dairy cows, sheep, and horses.
+Epic Pastures is a 320-acre diversified operation in the Midwest. We grow corn, soybeans, wheat, and alfalfa, and raise beef cattle, dairy cows, sheep, and horses.
 
-**Contact:** info@sunnyacresfarm.example.com
+**Contact:** info@epicpasturesfarm.example.com
 
 ---
 
