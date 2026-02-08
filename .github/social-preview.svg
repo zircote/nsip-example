@@ -285,9 +285,9 @@
   <!-- Title text -->
   <g transform="translate(640, 580)">
     <!-- Text shadow -->
-    <text x="2" y="2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#2E7D32" opacity="0.3">Sunny Acres Demo Farm</text>
+    <text x="2" y="2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#2E7D32" opacity="0.3">Epic Pastures Demo Farm</text>
     <!-- Main text -->
-    <text x="0" y="0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#2E7D32">Sunny Acres Demo Farm</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#2E7D32">Epic Pastures Demo Farm</text>
     <!-- Subtitle -->
     <text x="0" y="30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#558B2F" opacity="0.8">GitHub-powered farm management with NSIP breeding intelligence</text>
   </g>

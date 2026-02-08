@@ -1,6 +1,6 @@
 # Compliance
 
-This folder contains regulatory compliance and grant tracking records for Sunny Acres farm.
+This folder contains regulatory compliance and grant tracking records for Epic Pastures farm.
 
 ## Contents
 

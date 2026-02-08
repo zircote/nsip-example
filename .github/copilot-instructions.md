@@ -1,4 +1,4 @@
-# Copilot Instructions for Sunny Acres Demo Farm
+# Copilot Instructions for Epic Pastures Demo Farm
 
 This repository manages farm operations for a 320-acre diversified
 Midwest agricultural operation.

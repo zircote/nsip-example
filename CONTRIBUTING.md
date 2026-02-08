@@ -1,4 +1,4 @@
-# Contributing to Sunny Acres Farm Records
+# Contributing to Epic Pastures Farm Records
 
 Thank you for helping maintain our farm records! This guide explains
 how to contribute updates and improvements.

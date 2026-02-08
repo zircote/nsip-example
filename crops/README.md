@@ -1,6 +1,6 @@
 # Crops
 
-This folder contains all crop-related records for Sunny Acres farm.
+This folder contains all crop-related records for Epic Pastures farm.
 
 ## Contents
 

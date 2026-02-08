@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Welcome to Sunny Acres Farm discussions!
+        Welcome to Epic Pastures Farm discussions!
 
         Use this space for questions, ideas, or general conversation
         that doesn't fit into a specific Issue.

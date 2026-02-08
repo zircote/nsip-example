@@ -1,6 +1,6 @@
-# Sunny Acres Farm — Your Guide to Using This System
+# Epic Pastures Farm — Your Guide to Using This System
 
-Welcome! This guide will walk you through everything you need to know about using Sunny Acres' digital record-keeping system. Think of it as your **farm notebook moved online** — except it never gets lost, never gets rained on, and can do some of the math for you.
+Welcome! This guide will walk you through everything you need to know about using Epic Pastures' digital record-keeping system. Think of it as your **farm notebook moved online** — except it never gets lost, never gets rained on, and can do some of the math for you.
 
 Don't worry if computers aren't your thing. We wrote this guide with you in mind. Every step is spelled out, and there's no rush. You can always come back to this page if you get lost.
 

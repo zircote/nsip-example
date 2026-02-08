@@ -1,6 +1,6 @@
 # Equipment
 
-This folder contains all equipment-related records for Sunny Acres farm.
+This folder contains all equipment-related records for Epic Pastures farm.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # Livestock
 
-This folder contains all livestock-related records for Sunny Acres farm.
+This folder contains all livestock-related records for Epic Pastures farm.
 
 ## Contents
 
