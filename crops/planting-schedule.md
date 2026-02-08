@@ -2,37 +2,28 @@
 
 ## Spring Planting Plan
 
-| Field | Crop | Planting Date | Expected Harvest |
-|-------|------|---------------|-----------------|
-| Field 1 | Corn | April 15, 2026 | September 20, 2026 |
-| Field 2 | Soybeans | May 1, 2026 | October 5, 2026 |
-| Field 3 | Winter Wheat | September 10, 2025 | July 1, 2026 |
-| Field 4 | Alfalfa | March 20, 2026 | Multiple cuttings |
+| Area | Crop | Planting Date | Expected Harvest |
+|------|------|---------------|-----------------|
+| Garden beds | Mixed greens | March 15, 2026 | April–June 2026 |
+| Garden beds | Tomatoes, peppers | May 1, 2026 | July–September 2026 |
+| Garden beds | Squash, cucumbers | May 10, 2026 | July–September 2026 |
+| Pasture | Grass/clover mix | March 20, 2026 | Continuous grazing |
 
-## Field Details
+## Area Details
 
-### Field 1 — Corn (80 acres)
-- **Variety:** Pioneer P1197
-- **Population:** 34,000 seeds/acre
-- **Fertilizer:** 180 lbs N pre-plant
+### Market Garden
+- **Size:** ~2 acres
+- **Products:** Mixed greens, tomatoes, peppers, squash, cucumbers, herbs
+- **Sales:** Seasonal — farmers market and on-farm stand
+- **Method:** Intensive beds, succession planting
 
-### Field 2 — Soybeans (60 acres)
-- **Variety:** Asgrow AG36X6
-- **Population:** 140,000 seeds/acre
-- **Inoculant:** Applied
-
-### Field 3 — Winter Wheat (40 acres)
-- **Variety:** SY Wolverine
-- **Seeding Rate:** 1.5 million seeds/acre
-- **Status:** Established fall 2025
-
-### Field 4 — Alfalfa (30 acres)
-- **Variety:** WL 372HQ
-- **Expected cuttings:** 4-5 per season
-- **First cutting:** Late May
+### Pasture
+- **Size:** ~35 acres (rotational grazing for sheep)
+- **Mix:** Fescue, clover, orchard grass
+- **Management:** Rotational grazing with portable fencing
 
 ## Notes
 
-- Soil temps must reach 50°F for corn planting
-- Watch for wet spots in Field 2 — may need delayed planting in low areas
-- Wheat received spring nitrogen application March 10
+- Start transplants indoors 6 weeks before last frost
+- Last frost date (Farmville, VA): ~April 15
+- Watch soil temps before direct seeding

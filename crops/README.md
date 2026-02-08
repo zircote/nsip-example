@@ -13,4 +13,4 @@ This folder contains all crop-related records for Epic Pastures farm.
 ## Current Season
 
 **2026 Spring Planting:** In progress
-**Primary Crops:** Corn, Soybeans, Winter Wheat, Alfalfa
+**Primary Products:** Market garden (seasonal), eggs (seasonal)

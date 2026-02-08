@@ -1,34 +1,32 @@
 # Crop Rotation Plan
 
-## 3-Year Rotation Strategy
+## Market Garden Rotation Strategy
 
-Our rotation improves soil health, breaks pest cycles, and optimizes yields.
+Our rotation improves soil health, breaks pest cycles, and optimizes yields in the market garden.
 
-### Rotation Sequence
+### Rotation Sequence (Garden Beds)
 
-| Year | Field 1 | Field 2 | Field 3 | Field 4 |
-|------|---------|---------|---------|---------|
-| 2024 | Soybeans | Corn | Alfalfa | Wheat |
-| 2025 | Corn | Wheat | Alfalfa | Soybeans |
-| 2026 | Corn | Soybeans | Wheat | Alfalfa |
-| 2027 | Soybeans | Corn | Alfalfa | Wheat |
+| Year | Bed Group A | Bed Group B | Bed Group C |
+|------|-------------|-------------|-------------|
+| 2025 | Nightshades | Legumes/roots | Greens/brassicas |
+| 2026 | Greens/brassicas | Nightshades | Legumes/roots |
+| 2027 | Legumes/roots | Greens/brassicas | Nightshades |
 
 ## Rotation Benefits
 
-1. **Nitrogen fixation** — Soybeans add 40-60 lbs N/acre for following corn
-2. **Disease break** — Alternating crops disrupts pest lifecycles
-3. **Soil structure** — Alfalfa's deep roots improve drainage
-4. **Weed control** — Different crops allow varied herbicide programs
+1. **Nitrogen fixation** — Legume beds add nitrogen for following crops
+2. **Disease break** — Alternating families disrupts pest lifecycles
+3. **Soil structure** — Root crops loosen soil for following greens
+4. **Weed control** — Cover crops between seasons suppress weeds
 
-## Historical Yields
+## Pasture Management
 
-| Year | Corn (bu/acre) | Soybeans (bu/acre) | Wheat (bu/acre) |
-|------|----------------|--------------------| ----------------|
-| 2023 | 185 | 52 | 68 |
-| 2024 | 192 | 48 | 72 |
-| 2025 | 178 | 55 | 65 |
+- Rotational grazing with sheep across 6–8 paddocks
+- Rest periods of 30–45 days per paddock
+- Overseed thin areas in fall with clover mix
+- Soil test pastures every 2 years
 
 ## Notes
 
-- Field 4 alfalfa stand is 3 years old — plan termination after 2027
-- Consider adding cover crops after wheat harvest
+- Cover crop all garden beds over winter (rye/vetch mix)
+- Compost from poultry litter applied to garden beds annually
