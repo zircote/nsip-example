@@ -95,9 +95,9 @@ See [`.github/instructions/nsip-mcp.instructions.md`](.github/instructions/nsip-
 
 ## About This Farm
 
-Epic Pastures is a 320-acre diversified operation in the Midwest. We grow corn, soybeans, wheat, and alfalfa, and raise beef cattle, dairy cows, sheep, and horses.
+Epic Pastures is a 45-acre farm in Farmville, VA. We raise Katahdin hair sheep, chickens, ducks, and turkeys, and sell market garden produce and eggs seasonally.
 
-**Contact:** info@epicpasturesfarm.example.com
+**Contact:** hello@epicpastures.com
 
 ---
 

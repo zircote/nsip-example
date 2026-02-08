@@ -48,9 +48,9 @@ jobs:
             - [ ] Check feed inventory levels
             - [ ] Review health records for follow-ups needed
 
-            ### Crops/Fields
-            - [ ] Scout fields for pest or disease signs
-            - [ ] Check irrigation systems
+            ### Garden/Pasture
+            - [ ] Scout garden beds for pest or disease signs
+            - [ ] Check pasture fencing and rotational grazing setup
             - [ ] Review weather forecast for the week
 
             ### Administrative

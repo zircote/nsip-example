@@ -9,7 +9,7 @@ assignees: ''
 ## Animal Information
 
 **Animal Type:**
-<!-- e.g., Beef cattle, Dairy cow, Sheep, Horse -->
+<!-- e.g., Katahdin sheep, Chicken, Duck, Turkey -->
 
 **Animal ID/Tag Number:**
 <!-- If applicable -->

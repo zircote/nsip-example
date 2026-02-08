@@ -16,7 +16,7 @@ body:
       description: Share your question, idea, or topic for discussion.
       placeholder: |
         Examples:
-        - Has anyone tried cover cropping between corn and soybeans?
+        - Has anyone tried cover cropping in the market garden over winter?
         - What's the best time to schedule equipment maintenance?
         - Ideas for improving our record-keeping process
     validations:

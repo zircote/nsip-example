@@ -12,7 +12,7 @@ assignees: ''
 <!-- e.g., North 40, Field 3, River Bottom -->
 
 **Crop Type:**
-<!-- e.g., Corn, Soybeans, Wheat, Alfalfa -->
+<!-- e.g., Tomatoes, Peppers, Squash, Greens -->
 
 **Crop Stage:**
 <!-- e.g., Seedling, Vegetative, Flowering, Mature -->

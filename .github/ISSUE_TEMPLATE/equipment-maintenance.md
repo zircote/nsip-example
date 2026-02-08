@@ -9,7 +9,7 @@ assignees: ''
 ## Equipment Information
 
 **Equipment Name:**
-<!-- e.g., John Deere 6120M Tractor, Case IH Combine -->
+<!-- e.g., John Deere 6120M Tractor, Kubota Mower, Portable Fencing -->
 
 **Equipment ID/Serial Number:**
 <!-- If available -->

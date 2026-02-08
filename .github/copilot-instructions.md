@@ -1,16 +1,15 @@
 # Copilot Instructions for Epic Pastures Demo Farm
 
-This repository manages farm operations for a 320-acre diversified
-Midwest agricultural operation.
+This repository manages farm operations for a 45-acre farm
+in Farmville, VA.
 
 ## Farm Profile
 
-- **Location:** Midwest United States
-- **Size:** 320 acres
-- **Primary Crops:** Corn, soybeans, wheat, alfalfa
-- **Livestock:** 45 beef cattle, 12 dairy cows, 28 sheep, 3 horses
-- **Key Equipment:** John Deere 6120M tractor, Case IH combine,
-  center-pivot irrigation
+- **Location:** Farmville, VA
+- **Size:** 45 acres
+- **Primary Products:** Market garden (seasonal), eggs (seasonal)
+- **Livestock:** Katahdin hair sheep, chickens, ducks, turkeys
+- **Key Equipment:** John Deere 6120M tractor, Kubota ZD1211 mower
 
 ## Writing Style
 
@@ -25,8 +24,9 @@ When drafting Issues or documentation:
 ## Common Tasks
 
 - Equipment maintenance and repair tracking
-- Crop planting and harvest scheduling
+- Market garden planting and harvest scheduling
 - Livestock health records and feeding schedules
+- Egg production and seasonal sales tracking
 - Compliance documentation (grants, certifications)
 - Seasonal planning and task prioritization
 - Breeding record keeping (mating, lambing, health, weaning)
