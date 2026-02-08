@@ -22,7 +22,7 @@ The weekly checklist typically includes reminders like:
 
 - **Equipment**: Check fluid levels on tractors, inspect tire pressure, review the maintenance log for upcoming service
 - **Livestock**: Verify all water sources are working, check feed inventory levels, review health records for follow-ups
-- **Crops/Fields**: Scout fields for pest or disease signs, check irrigation systems, review the weather forecast
+- **Garden/Pasture**: Scout garden beds for pest or disease signs, check pasture fencing, review the weather forecast
 - **Administrative**: Review open issues from last week, update the project board, plan priorities for the week
 
 ---

@@ -20,7 +20,7 @@ Click in the search box and type your search term. You can search by:
 
 - **Animal ID number** — Type the LPN: `12345`
 - **Keywords** — Type a word: `limping` or `foot rot` or `hydraulic`
-- **Equipment name** — Type: `tractor` or `combine`
+- **Equipment name** — Type: `tractor` or `mower`
 - **Field name** — Type: `Field 2`
 
 Then press **Enter** on your keyboard.

@@ -6,7 +6,7 @@ Use this guide when a piece of equipment needs repair, maintenance, or inspectio
 
 ## What You'll Need Before You Start
 
-- **Which piece of equipment** (tractor, combine, sprayer, etc.)
+- **Which piece of equipment** (tractor, mower, fencing, etc.)
 - **What happened or what you noticed**
 - **When** it happened or when you noticed it
 - **How urgent** it is
@@ -33,7 +33,7 @@ The title line at the top will start with `[EQUIPMENT]`. Just add a short descri
 
 Then fill in the sections below:
 
-- **Equipment Name** — Which machine (e.g., John Deere 6120M Tractor, Case IH Combine, Kubota Mower)
+- **Equipment Name** — Which machine (e.g., John Deere 6120M Tractor, Kubota Mower, Portable Fencing)
 - **Equipment ID/Serial Number** — If you can find it on the machine, include it. If not, skip this
 - **Location** — Where is the equipment right now? (e.g., Main barn, North field, Equipment shed)
 - **What is the problem?** — What's going on, in your own words:

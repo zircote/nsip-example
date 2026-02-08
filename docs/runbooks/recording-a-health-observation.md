@@ -47,7 +47,7 @@ Find **"Health Record"** in the list and click **"Get started"**.
 - **Veterinarian Notes** — If the vet examined the animal, jot down their findings here
 - **Additional Notes** — Anything else: "First time this animal has had this issue," "Third sheep in south pasture with same symptoms this week"
 
-**Note:** There are two health forms in the system. **"Health Record"** is for sheep that are in the NSIP breeding program — it will automatically look up their genetics. **"Livestock Health Record"** is a simpler form for cattle, horses, or any other animal. Use whichever fits.
+**Note:** There are two health forms in the system. **"Health Record"** is for sheep that are in the NSIP breeding program — it will automatically look up their genetics. **"Livestock Health Record"** is a simpler form for chickens, ducks, turkeys, or any other animal. Use whichever fits.
 
 ### Step 5 — Submit
 

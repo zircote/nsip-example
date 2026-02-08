@@ -29,17 +29,17 @@ Find **"Crop Issue Report"** and click **"Get started"**.
 
 ### Step 4 — Fill In the Form
 
-The title line at the top will start with `[CROPS]`. Just add a short name after it, like `[CROPS] Yellowing corn in Field 2`.
+The title line at the top will start with `[CROPS]`. Just add a short name after it, like `[CROPS] Yellowing tomatoes in Garden Bed A`.
 
 Then fill in the sections below:
 
 - **Field Name/Number** — Which field is affected (e.g., Field 2, North 40, River Bottom)
-- **Crop Type** — What's growing there (e.g., Corn, Soybeans, Wheat, Alfalfa)
+- **Crop Type** — What's growing there (e.g., Tomatoes, Peppers, Squash, Greens)
 - **Crop Stage** — How far along is the crop? (e.g., Seedling, Vegetative, Flowering, Mature)
 - **Acres Affected** — Your best guess at how much area is affected
 - **What did you observe?** — Describe what you see. Write it like you're telling someone over the phone:
-  - "The corn in the northwest corner of Field 2 is turning yellow. It's about a 50-foot circle."
-  - "Lots of waterhemp coming up in the soybean rows near the ditch."
+  - "The tomatoes in Bed Group A are wilting. Looks like the whole row."
+  - "Lots of weeds coming up between the squash rows near the fence."
 - **Where in the field?** — Be as specific as you can (e.g., "low spots near the tile outlet," "along the south fence")
 - **Weather conditions recently** — Has there been heavy rain, drought, frost, hail, etc.?
 - **Possible Causes** — Check any boxes that might apply: pest damage, disease, nutrient deficiency, weather damage, herbicide drift, wildlife damage, or unknown. It's okay to check "Unknown" if you're not sure
