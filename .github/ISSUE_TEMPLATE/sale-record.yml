@@ -1,0 +1,72 @@
+---
+name: Sale Record
+description: Record an animal sale or transfer
+labels: ["record:sale"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record an animal leaving the flock through sale or
+        transfer. The NSIP agent will enrich this record with
+        a comprehensive profile including EBVs, indexes, and
+        pedigree for your records.
+
+  - type: input
+    id: animal_lpn
+    attributes:
+      label: Animal LPN ID
+      description: >-
+        The animal's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500789
+    validations:
+      required: true
+
+  - type: input
+    id: sale_date
+    attributes:
+      label: Sale Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sale_type
+    attributes:
+      label: Sale Type
+      options:
+        - Private treaty
+        - Auction
+        - Stud sale
+        - Transfer (no sale)
+
+  - type: input
+    id: buyer
+    attributes:
+      label: Buyer Name
+      placeholder: e.g., Smith Farms
+
+  - type: input
+    id: destination_flock
+    attributes:
+      label: Destination Flock
+      description: >-
+        Flock name or ID the animal is moving to,
+        if known.
+      placeholder: e.g., Flock 12345
+
+  - type: input
+    id: sale_price
+    attributes:
+      label: Sale Price
+      placeholder: e.g., $500
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Reason for sale, buyer feedback, or other
+        observations.
+      placeholder: Any additional observations

@@ -1,0 +1,61 @@
+---
+name: Death/Cull Record
+description: Record an animal death or culling decision
+labels: ["record:death"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record an animal death or culling decision. The NSIP
+        agent will archive the animal's complete genetic
+        record and note any living progeny in the flock.
+
+  - type: input
+    id: animal_lpn
+    attributes:
+      label: Animal LPN ID
+      description: >-
+        The animal's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500789
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cause
+    attributes:
+      label: Cause
+      options:
+        - Disease
+        - Predation
+        - Age
+        - "Culled - structural"
+        - "Culled - performance"
+        - Accident
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: age_at_death
+    attributes:
+      label: Age at Death
+      placeholder: e.g., 4 years
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Circumstances, symptoms, necropsy findings,
+        or other observations.
+      placeholder: Any additional observations
