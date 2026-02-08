@@ -6,47 +6,50 @@
 
 | Group | Feed | Amount | Location |
 |-------|------|--------|----------|
-| Dairy Cows | TMR (Total Mixed Ration) | 55 lbs/head | Dairy barn |
-| Beef Cattle | Hay + Mineral | Free choice | North pasture feeder |
 | Sheep | Hay | 4 lbs/head | Sheep barn |
-| Horses | Grain + Hay | 12 lbs/head | Horse barn |
+| Chickens | Layer feed | Free choice | Chicken coop |
+| Ducks | Waterfowl feed | Free choice | Duck house |
+| Turkeys | Game bird feed | Free choice | Turkey pen |
 
 ### Evening (5:00 PM)
 
 | Group | Feed | Amount | Location |
 |-------|------|--------|----------|
-| Dairy Cows | TMR | 55 lbs/head | Dairy barn |
-| Beef Cattle | Check hay | As needed | North pasture feeder |
 | Sheep | Grain (if lactating) | 1 lb/head | Sheep barn |
-| Horses | Hay | 10 lbs/head | Horse barn |
+| Chickens | Scratch grains | Supplemental | Chicken run |
+| Ducks | Check feed | As needed | Duck house |
+| Turkeys | Check feed | As needed | Turkey pen |
 
 ## Seasonal Adjustments
 
 ### Spring (March - May)
-- Transition cattle to pasture gradually
+- Transition sheep to pasture gradually
 - Reduce hay as grass becomes available
-- Increase minerals for lactating animals
+- Increase minerals for lactating ewes
 
 ### Summer (June - August)
-- Primary grazing season
+- Primary grazing season for sheep
 - Supplement hay only during drought
-- Provide shade and water access
+- Provide shade and water access for all animals
+- Free-range poultry on pasture
 
 ### Fall (September - November)
 - Begin hay supplementation as pastures decline
 - Flush ewes before breeding season
-- Increase grain for working horses
+- Increase feed for turkeys approaching processing
 
 ### Winter (December - February)
-- Full hay rations
-- Increase grain for pregnant/lactating animals
+- Full hay rations for sheep
+- Increase grain for pregnant/lactating ewes
 - Check water heaters daily
+- Ensure poultry houses are draft-free
 
 ## Feed Inventory
 
 | Feed Type | Current Stock | Reorder Point |
 |-----------|---------------|---------------|
 | Hay (round bales) | 45 bales | 20 bales |
-| TMR | 2 weeks | 1 week |
+| Layer feed | 500 lbs | 200 lbs |
 | Grain | 1,500 lbs | 500 lbs |
 | Mineral blocks | 8 blocks | 4 blocks |
+| Waterfowl feed | 200 lbs | 100 lbs |
