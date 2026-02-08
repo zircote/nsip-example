@@ -29,18 +29,29 @@ Find **"Equipment Maintenance"** and click **"Get started"**.
 
 ### Step 4 — Fill In the Form
 
-- **Title** — Keep it simple: "Tractor hydraulic leak" or "Combine belt needs replacement" or "Mower won't start"
-- **Equipment** — Which machine (e.g., John Deere 6120M, Case IH 7150, Kubota ZD1211)
-- **Date** — When you noticed the issue
-- **Description** — What's going on, in your own words:
+The title line at the top will start with `[EQUIPMENT]`. Just add a short description after it, like `[EQUIPMENT] Tractor hydraulic leak`.
+
+Then fill in the sections below:
+
+- **Equipment Name** — Which machine (e.g., John Deere 6120M Tractor, Case IH Combine, Kubota Mower)
+- **Equipment ID/Serial Number** — If you can find it on the machine, include it. If not, skip this
+- **Location** — Where is the equipment right now? (e.g., Main barn, North field, Equipment shed)
+- **What is the problem?** — What's going on, in your own words:
   - "Noticed a puddle of hydraulic fluid under the tractor after parking it in the shed"
   - "The PTO makes a grinding noise when engaged"
   - "Due for regular oil change — 500 hours showing"
-- **Priority**:
-  - **Routine** — Regular maintenance, no rush
-  - **Urgent** — Something is broken and we need it soon
-  - **Seasonal** — Needs to be done before the next season (pre-harvest, pre-planting, etc.)
-- **Notes** — Anything else: "I shut it down right away," "This happened last year too," "Parts might need to be ordered"
+- **When did you first notice this?** — Date and time if you remember
+- **Is the equipment still operational?** — Check the box that fits:
+  - Yes, but with reduced performance
+  - Yes, but should not be used until fixed
+  - No, completely non-functional
+- **Urgency** — Check one box:
+  - Routine: Can wait for scheduled maintenance
+  - Soon: Should be addressed within the week
+  - Urgent: Needed for upcoming operations
+  - Emergency: Operations are stopped
+- **Steps Already Taken** — If you already tried something (checked the fuses, added fluid, etc.), note it here
+- **Photos** — If you took a photo, drag it in. Helps the repair person see what's going on
 
 ### Step 5 — Submit
 

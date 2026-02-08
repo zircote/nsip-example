@@ -69,6 +69,8 @@ These are your "how-to" sheets. Each one walks you through a single task with nu
 | Record a lambing (birth) | [Recording a Lambing](runbooks/recording-a-lambing.md) |
 | Record weaning weights | [Recording Weaning Weights](runbooks/recording-weaning-weights.md) |
 | Record a health observation | [Recording a Health Observation](runbooks/recording-a-health-observation.md) |
+| Record a sale or transfer | [Recording a Sale](runbooks/recording-a-sale.md) |
+| Record a death or culling | [Recording a Death](runbooks/recording-a-death.md) |
 | Ask the system to analyze your flock | [Requesting a Flock Analysis](runbooks/requesting-a-flock-analysis.md) |
 | Report a crop or field problem | [Reporting a Crop or Field Issue](runbooks/reporting-a-crop-issue.md) |
 | Report an equipment problem | [Reporting an Equipment Problem](runbooks/reporting-an-equipment-problem.md) |
@@ -102,18 +104,44 @@ For sheep breeding records (matings, lambings, weanings, and health), something 
 
 You'll notice colored tags on records. These are **labels** that help organize things — just like putting colored sticky tabs on pages in a binder. Here's what the colors and names mean:
 
+**Farm area labels:**
+
 | Label | What It Means |
 |---|---|
 | **crops** (green) | Related to crops and fields |
 | **livestock** (brown) | Related to animals |
-| **equipment** (blue) | Related to machinery and tools |
+| **equipment** (dark gray) | Related to machinery and tools |
+| **compliance** (purple) | Related to permits, grants, certifications |
+
+**Priority labels:**
+
+| Label | What It Means |
+|---|---|
 | **urgent** (red) | Needs attention right away |
-| **routine** (gray) | Regular, non-emergency task |
-| **seasonal** (teal) | Tied to a specific time of year |
-| **waiting-on-vet** | Waiting for the veterinarian |
-| **waiting-on-parts** | Waiting for a part to arrive |
-| **waiting-on-weather** | Can't do it until weather cooperates |
-| **enriched** | Genetic data has been added to this record |
+| **routine** (green) | Regular, non-emergency task |
+| **seasonal** (gold) | Tied to a specific time of year |
+
+**Status labels (what's holding things up):**
+
+| Label | What It Means |
+|---|---|
+| **waiting-on-vet** (pink) | Waiting for the veterinarian |
+| **waiting-on-parts** (amber) | Waiting for a part to arrive |
+| **waiting-on-weather** (light blue) | Can't do it until weather cooperates |
+| **needs-review** (purple) | Ready for someone to look over |
+
+**Breeding record labels (you'll see these on sheep records):**
+
+| Label | What It Means |
+|---|---|
+| **record:mating** (green) | A breeding/mating record |
+| **record:lambing** (blue) | A birth record |
+| **record:health** (red) | A health observation or treatment |
+| **record:weaning** (gold) | Weaning weight records |
+| **record:sale** (purple) | An animal sale or transfer record |
+| **record:death** (dark gray) | A death or culling record |
+| **enriched** (teal) | Genetic data has been added to this record |
+| **flock-action** (dark blue) | An automated flock analysis request |
 
 ---
 

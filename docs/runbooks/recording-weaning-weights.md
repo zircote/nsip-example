@@ -31,14 +31,17 @@ Find **"Weaning Record"** in the list and click **"Get started"**.
 ### Step 4 — Fill In the Form
 
 - **Weaning Date** — The date you weighed them (example: `2026-07-01`)
-- **Animals and Weights** — List each lamb with its ID and weight. Put each one on its own line, like this:
+- **Animal Weights** — List each lamb with its ID and weight (in kg). Put each one on its own line, like this:
   ```
-  LPN 11111: 65 lbs
-  LPN 22222: 72 lbs
-  LPN 33333: 58 lbs
-  LPN 44444: 70 lbs
+  500101: 28.5
+  500102: 31.2
+  500103: 26.8
+  500104: 30.0
   ```
-- **Notes** — Anything worth noting: "All lambs in good condition," "LPN 33333 recovered from scours last month," etc.
+  If you weigh in pounds, you can convert (divide by 2.2) or just note "lbs" and someone can convert later.
+- **Average Age at Weaning** — The average age of the lambs in days (example: `90`). Optional but helpful
+- **Management Group** — Which paddock or group these lambs belong to (example: `Paddock 3 - Spring 2026`). Optional
+- **Notes** — Anything worth noting: "All lambs in good condition," "500103 recovered from scours last month," etc.
 
 ### Step 5 — Submit
 

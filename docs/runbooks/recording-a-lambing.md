@@ -32,20 +32,23 @@ Find **"Lambing Record"** in the list and click **"Get started"**.
 
 ### Step 4 — Fill In the Form
 
-- **Dam LPN** — Type the ewe's ID number (the mother)
+- **Dam LPN ID** — Type the ewe's ID number (the mother)
+- **Sire LPN ID** — The ram's ID number, if you know it (optional)
 - **Lambing Date** — The date the lambs arrived (example: `2026-04-10`)
 - **Number Born** — Total lambs delivered (including any that didn't survive)
-- **Number Alive** — How many are alive and well
-- **Birth Weights** — Enter each lamb's weight. If you had twins, you might write something like:
+- **Number Born Alive** — How many are alive and well
+- **Lamb Details** — Enter each lamb's sex and birth weight. Put each one on its own line, like this:
   ```
-  Lamb 1 (ewe): 8.5 lbs
-  Lamb 2 (ram): 9.2 lbs
+  Ewe: 4.2 kg
+  Ram: 4.8 kg
   ```
-- **Lambing Ease** — Pick from the dropdown:
-  - Unassisted (ewe did it on her own)
-  - Easy pull (needed a little help)
-  - Hard pull (difficult delivery)
-  - Veterinary assist (vet had to help)
+  If you weigh in pounds, you can write that instead (e.g., `Ewe: 9.2 lbs`). Either way is fine.
+- **Lambing Ease Score** — Pick from the dropdown:
+  - 1 - Unassisted (ewe did it on her own)
+  - 2 - Minor assistance (needed a little help)
+  - 3 - Moderate assistance (some hands-on help needed)
+  - 4 - Significant assistance (difficult delivery)
+  - 5 - Veterinary intervention (vet had to help)
 - **Notes** — Anything worth remembering: "Ewe cleaned lambs quickly," "Lamb 2 was slow to stand," "Delivered in the south pen"
 
 ### Step 5 — Submit

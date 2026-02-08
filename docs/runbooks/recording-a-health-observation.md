@@ -29,25 +29,25 @@ Find **"Health Record"** in the list and click **"Get started"**.
 
 ### Step 4 — Fill In the Form
 
-- **Animal LPN** — The animal's ID number
-- **Date Observed** — When you noticed the issue or gave treatment (example: `2026-05-20`)
-- **Condition** — What you observed. Be as plain as you like:
+- **Animal LPN ID** — The animal's ID number
+- **Date** — When you noticed the issue or gave treatment (example: `2026-05-20`)
+- **Condition or Diagnosis** — What you observed. Be as plain as you like:
   - "Limping on front right"
   - "Runny nose, off feed"
   - "Routine CDT booster"
   - "Foot rot, left rear"
-  - "Diarrhea, mild"
-- **Treatment** — What you did about it (leave blank if you're just noting an observation):
-  - "Penicillin 5cc IM"
+  - "Barber pole worm burden"
+- **Treatment Administered** — What you did about it (leave blank if you're just noting an observation). The form gives you space for the drug name, dose, route, and withholding period. You can write it however makes sense to you:
+  - "Ivermectin, 0.2 mg/kg oral, 14-day meat withholding"
   - "Trimmed hooves, applied zinc sulfate"
   - "Moved to sick pen for monitoring"
   - "Called vet, appointment Thursday"
-- **Severity** — Pick one:
-  - Observation (just noting something)
-  - Minor (animal is functional but needs attention)
-  - Moderate (animal needs treatment soon)
-  - Severe (needs immediate vet attention)
-- **Notes** — Anything else: "First time this animal has had this issue," "Third sheep in south pasture with same symptoms this week"
+- **Body Condition Score** — A number from 1 to 5 describing the animal's overall body condition (1 = very thin, 3 = just right, 5 = overweight). If you're not sure, you can skip this
+- **Follow-Up Date** — When you plan to check on this animal again (optional)
+- **Veterinarian Notes** — If the vet examined the animal, jot down their findings here
+- **Additional Notes** — Anything else: "First time this animal has had this issue," "Third sheep in south pasture with same symptoms this week"
+
+**Note:** There are two health forms in the system. **"Health Record"** is for sheep that are in the NSIP breeding program — it will automatically look up their genetics. **"Livestock Health Record"** is a simpler form for cattle, horses, or any other animal. Use whichever fits.
 
 ### Step 5 — Submit
 

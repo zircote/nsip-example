@@ -29,17 +29,27 @@ Find **"Crop Issue Report"** and click **"Get started"**.
 
 ### Step 4 — Fill In the Form
 
-- **Title** — Give it a short name, like "Yellowing corn in Field 2" or "Weed pressure along south fence"
-- **Field** — Which field is affected
-- **Date Observed** — When you first noticed it
-- **Description** — Describe what you see. Write it like you're telling someone over the phone:
-  - "The corn in the northwest corner of Field 2 is turning yellow. It's about a 50-foot circle. The rest of the field looks fine."
-  - "Lots of waterhemp coming up in the soybean rows near the ditch in Field 3."
-- **Severity** — How bad is it?
-  - Low: Worth noting but not urgent
-  - Medium: Needs attention within the next week or two
-  - High: Needs action soon — could spread or worsen
-- **Photos** — If you took a photo with your phone, you can drag it into the form or click to upload it. Photos are really helpful but not required.
+The title line at the top will start with `[CROPS]`. Just add a short name after it, like `[CROPS] Yellowing corn in Field 2`.
+
+Then fill in the sections below:
+
+- **Field Name/Number** — Which field is affected (e.g., Field 2, North 40, River Bottom)
+- **Crop Type** — What's growing there (e.g., Corn, Soybeans, Wheat, Alfalfa)
+- **Crop Stage** — How far along is the crop? (e.g., Seedling, Vegetative, Flowering, Mature)
+- **Acres Affected** — Your best guess at how much area is affected
+- **What did you observe?** — Describe what you see. Write it like you're telling someone over the phone:
+  - "The corn in the northwest corner of Field 2 is turning yellow. It's about a 50-foot circle."
+  - "Lots of waterhemp coming up in the soybean rows near the ditch."
+- **Where in the field?** — Be as specific as you can (e.g., "low spots near the tile outlet," "along the south fence")
+- **Weather conditions recently** — Has there been heavy rain, drought, frost, hail, etc.?
+- **Possible Causes** — Check any boxes that might apply: pest damage, disease, nutrient deficiency, weather damage, herbicide drift, wildlife damage, or unknown. It's okay to check "Unknown" if you're not sure
+- **Urgency** — Check one box:
+  - Monitor: Keep an eye on it
+  - Soon: Should investigate within the week
+  - Urgent: Spreading rapidly or threatening yield
+  - Emergency: Immediate action required
+- **Photos** — If you took a photo with your phone, you can drag it into the form or click to upload it. Photos are really helpful but not required
+- **Action Checklist** — You can ignore this for now. It's a list the team uses to track next steps after your report
 
 ### Step 5 — Submit
 

@@ -2,14 +2,12 @@
 
 Welcome to the Sunny Acres farm repository — your digital barn for all farm information.
 
-This repository organizes our farm records into four sections:
+This repository does two things:
 
-- **crops/** — Planting schedules, crop records, and soil data
-- **livestock/** — Health records, feeding schedules, and vet logs
-- **equipment/** — Maintenance logs, safety inspections, and inventory
-- **compliance/** — Grant tracking and certifications
+1. **Organizes farm records** into easy-to-browse folders (crops, livestock, equipment, compliance)
+2. **Tracks sheep breeding** through a record-keeping system powered by the [National Sheep Improvement Program (NSIP)](https://nsip.org) genetic database
 
-Use this repository to find any farm document. Click a folder to explore.
+When you create a breeding record (mating, lambing, health, weaning), the system automatically looks up the animal's genetics and adds useful information like growth potential, inbreeding risk, and trait comparisons.
 
 ---
 
@@ -22,6 +20,26 @@ Use this repository to find any farm document. Click a folder to explore.
 | [Equipment](./equipment/) | Maintenance log, safety inspections, inventory |
 | [Compliance](./compliance/) | Grant tracking, certifications |
 
+### Guides
+
+| Guide | Description |
+|-------|-------------|
+| [User Guide](./docs/USER-GUIDE.md) | Start here — how to use this system (written for non-technical users) |
+| [Runbooks](./docs/runbooks/) | Step-by-step instructions for common tasks |
+| [Breeding Event Log](./docs/BREEDING-EVENT-LOG.md) | How the NSIP breeding record system works |
+
+### Creating Records
+
+Click the **Issues** tab above, then **New issue** to create a record. Available forms:
+
+- **Mating Record** — Log a breeding pairing (auto-checks inbreeding risk)
+- **Lambing Record** — Log a birth event
+- **Health Record** — Log a health observation or treatment
+- **Weaning Record** — Log weaning weights
+- **Flock Action** — Request an automated flock analysis (compare, rank, mating recommendations)
+- **Crop Issue Report** — Report a field problem
+- **Equipment Maintenance** — Report an equipment issue
+
 ---
 
 ## About This Farm
@@ -32,4 +50,4 @@ Sunny Acres is a 320-acre diversified operation in the Midwest. We grow corn, so
 
 ---
 
-*This is a demo repository for GitHub training. All data is fictional.*
+*This is a demo repository for [GitHub4Farms](https://github.com) training. All data is fictional.*

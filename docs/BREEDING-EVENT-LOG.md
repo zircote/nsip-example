@@ -221,35 +221,34 @@ Each enrichment comment follows a consistent structure:
 [Context-specific analysis based on record type]
 ```
 
-## Event Log Compilation
+## Event Log Compilation (Planned)
 
-A scheduled GitHub Actions workflow compiles breeding records into a
-periodic summary.
+> **Note:** The features in this section are planned but not yet implemented.
+> Currently, breeding records are tracked as individual Issues and can be
+> searched by label. The digest and summary workflows described below are
+> on the roadmap.
 
-### Weekly Digest Workflow
+### Weekly Digest Workflow (Planned)
 
-The workflow runs on a weekly schedule and:
+A future scheduled workflow will compile breeding records into a periodic
+summary:
 
-1. Queries all issues with `record:*` labels from the past week.
-2. Sorts events chronologically by the date field in each record.
-3. Creates a summary issue (`event-log:weekly`) with:
+1. Query all issues with `record:*` labels from the past week.
+2. Sort events chronologically by the date field in each record.
+3. Create a summary issue with:
    - Timeline of events grouped by day
    - Counts by record type (matings, lambings, health events, etc.)
    - Any flagged concerns (high COI matings, health clusters)
 
-### Seasonal Summary
+### Seasonal Summary (Planned)
 
-At the end of each lambing or mating season, a manual workflow trigger
-generates a season report:
+A future manual workflow trigger will generate a season report:
 
 - **Mating season:** Number of matings planned, sires used, average COI
 - **Lambing season:** Total lambs born, born alive, mortality rate, average
   birth weight, sex ratio
 - **Weaning:** Average weaning weight, top/bottom performers by WWT EBV
 - **Trait trends:** Flock-average EBV movement compared to prior seasons
-
-The summary is posted as a milestone issue or committed as a markdown file
-in `docs/seasons/`.
 
 ## NSIP MCP Tools Reference
 
@@ -268,6 +267,8 @@ The following NSIP MCP server tools power the enrichment pipeline:
 | `search` | Find animals by name, ID, or flock | All (ID resolution) |
 | `rank` | Rank animals within a flock by trait or index | Seasonal summaries |
 | `flock_summary` | Aggregate flock statistics | Seasonal summaries |
+| `breed_groups` | List all breeds in the database | ID resolution, breed context |
+| `database_status` | Check NSIP database update date | Data freshness checks |
 
 ## Getting Started
 

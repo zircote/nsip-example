@@ -12,7 +12,7 @@ Click on **"Issues"** at the top of the project page.
 
 ### Step 2 — Look for This Week's Checklist
 
-Every Monday, a new record appears at the top of the list with a title like **"Weekly Farm Checklist"** and the current date. Click on it to open it.
+Every Monday, a new record appears at the top of the list with a title like **"Weekly Farm Check - Week 6"** (the number changes each week). Click on it to open it.
 
 ---
 
@@ -20,11 +20,10 @@ Every Monday, a new record appears at the top of the list with a title like **"W
 
 The weekly checklist typically includes reminders like:
 
-- **Livestock**: Check water systems, inspect fencing, review any open health records
-- **Crops**: Scout fields for pests/weeds, check irrigation if applicable
-- **Equipment**: Review upcoming maintenance, check fluid levels on active equipment
-- **Compliance**: Note any upcoming deadlines for permits, reports, or certifications
-- **Records**: Follow up on any open records that need closing or updating
+- **Equipment**: Check fluid levels on tractors, inspect tire pressure, review the maintenance log for upcoming service
+- **Livestock**: Verify all water sources are working, check feed inventory levels, review health records for follow-ups
+- **Crops/Fields**: Scout fields for pest or disease signs, check irrigation systems, review the weather forecast
+- **Administrative**: Review open issues from last week, update the project board, plan priorities for the week
 
 ---
 

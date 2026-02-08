@@ -12,6 +12,8 @@ These guides walk you through common tasks, one step at a time. Pick the one tha
 | [Recording a Lambing](recording-a-lambing.md) | A ewe has given birth and you want to log the details |
 | [Recording Weaning Weights](recording-weaning-weights.md) | You've weighed lambs at weaning time |
 | [Recording a Health Observation](recording-a-health-observation.md) | An animal is sick, injured, or you gave a treatment |
+| [Recording a Sale](recording-a-sale.md) | An animal is being sold or transferred out of the flock |
+| [Recording a Death](recording-a-death.md) | An animal has died or is being culled |
 | [Requesting a Flock Analysis](requesting-a-flock-analysis.md) | You want the system to compare, rank, or analyze your sheep |
 
 ## Crops & Equipment

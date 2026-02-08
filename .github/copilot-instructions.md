@@ -66,6 +66,6 @@ Use these categories when suggesting labels:
 - Type: maintenance, repair, inspection, planning, health
 - Priority: urgent, routine, seasonal
 - Status: waiting-on-parts, waiting-on-weather, waiting-on-vet
-- Breeding records: record:mating, record:lambing, record:health, record:weaning
+- Breeding records: record:mating, record:lambing, record:health, record:weaning, record:sale, record:death
 - Flock actions: flock-action
 - Agent status: enriched

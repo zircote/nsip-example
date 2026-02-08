@@ -39,7 +39,7 @@ The form will ask you to choose one of the six options listed above. Click the o
 
 ### Step 5 — Enter the Animal IDs
 
-In the **"Animals"** field, type the ID numbers of the animals you want analyzed. Put each one on its own line:
+In the **"LPN IDs"** field, type the ID numbers of the animals you want analyzed. Put each one on its own line:
 
 ```
 12345

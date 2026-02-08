@@ -31,10 +31,10 @@ You'll see a list of different forms. Find the one that says **"Mating Record"**
 
 The form has these fields:
 
-- **Sire LPN** — Type the ram's ID number (example: `12345`)
-- **Dam LPN** — Type the ewe's ID number (example: `67890`)
+- **Sire LPN ID** — Type the ram's ID number (example: `500123`)
+- **Dam LPN ID** — Type the ewe's ID number (example: `500456`)
 - **Mating Date** — Enter the date (example: `2026-03-15` for March 15, 2026)
-- **Method** — Pick one from the dropdown:
+- **Breeding Method** — Pick one from the dropdown:
   - Natural
   - Artificial Insemination
   - Embryo Transfer
