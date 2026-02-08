@@ -1,0 +1,79 @@
+# GitHub Labels for Farm Repository
+#
+# Use with GitHub Label Sync or apply manually in Settings > Labels
+# Colors are hex codes without the # prefix
+#
+# To apply these labels using gh CLI:
+#   gh label create "crops" --color "2E7D32" --description "Crop-related tasks and issues"
+
+# Domain Labels (What area of the farm)
+- name: crops
+  color: "2E7D32"
+  description: "Crop-related tasks and issues"
+
+- name: livestock
+  color: "8D6E63"
+  description: "Livestock and animal-related tasks"
+
+- name: equipment
+  color: "455A64"
+  description: "Equipment, machinery, and tools"
+
+- name: compliance
+  color: "7B1FA2"
+  description: "Regulatory, grants, and certification tasks"
+
+# Task Type Labels (What kind of work)
+- name: maintenance
+  color: "1565C0"
+  description: "Routine maintenance tasks"
+
+- name: repair
+  color: "E65100"
+  description: "Repair work needed"
+
+- name: inspection
+  color: "00838F"
+  description: "Inspection or audit tasks"
+
+- name: planning
+  color: "6A1B9A"
+  description: "Planning and scheduling tasks"
+
+- name: field-observation
+  color: "558B2F"
+  description: "Field scouting and observations"
+
+- name: health
+  color: "C62828"
+  description: "Health-related observations or treatments"
+
+# Priority Labels (How urgent)
+- name: urgent
+  color: "D32F2F"
+  description: "Needs immediate attention"
+
+- name: routine
+  color: "689F38"
+  description: "Regular scheduled task"
+
+- name: seasonal
+  color: "F9A825"
+  description: "Seasonal or time-sensitive task"
+
+# Status Labels (Optional workflow states)
+- name: waiting-on-parts
+  color: "FFB300"
+  description: "Blocked waiting for parts or supplies"
+
+- name: waiting-on-weather
+  color: "29B6F6"
+  description: "Blocked by weather conditions"
+
+- name: waiting-on-vet
+  color: "EC407A"
+  description: "Waiting for veterinarian"
+
+- name: needs-review
+  color: "AB47BC"
+  description: "Ready for review or approval"

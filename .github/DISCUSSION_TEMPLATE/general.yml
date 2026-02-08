@@ -1,0 +1,38 @@
+title: "[General] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to Sunny Acres Farm discussions!
+
+        Use this space for questions, ideas, or general conversation
+        that doesn't fit into a specific Issue.
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: What's on your mind?
+      description: Share your question, idea, or topic for discussion.
+      placeholder: |
+        Examples:
+        - Has anyone tried cover cropping between corn and soybeans?
+        - What's the best time to schedule equipment maintenance?
+        - Ideas for improving our record-keeping process
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What area does this relate to?
+      options:
+        - General farm operations
+        - Crops and planting
+        - Livestock management
+        - Equipment and machinery
+        - Compliance and records
+        - Other
+    validations:
+      required: false

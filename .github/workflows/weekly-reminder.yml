@@ -1,0 +1,64 @@
+# Weekly Farm Task Reminder
+# This workflow creates a reminder issue every Monday at 8 AM UTC
+#
+# Learners: This is an example of a scheduled GitHub Actions workflow.
+# You can modify the schedule (cron), title, and body to fit your farm's needs.
+
+name: Weekly Farm Reminder
+
+on:
+  schedule:
+    # Runs every Monday at 8:00 AM UTC
+    # Cron format: minute hour day-of-month month day-of-week
+    - cron: '0 8 * * 1'
+
+  # Allows manual triggering from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  create-reminder:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Create weekly reminder issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date();
+            const weekNumber = Math.ceil((today - new Date(today.getFullYear(), 0, 1)) / 604800000);
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Weekly Farm Check - Week ${weekNumber}`,
+              labels: ['routine', 'maintenance'],
+              body: `## Weekly Farm Checklist
+
+            It's Monday! Time for our weekly farm review.
+
+            ### Equipment
+            - [ ] Check fluid levels on all tractors
+            - [ ] Inspect tire pressure on vehicles
+            - [ ] Review maintenance log for upcoming service
+
+            ### Livestock
+            - [ ] Verify all water sources are working
+            - [ ] Check feed inventory levels
+            - [ ] Review health records for follow-ups needed
+
+            ### Crops/Fields
+            - [ ] Scout fields for pest or disease signs
+            - [ ] Check irrigation systems
+            - [ ] Review weather forecast for the week
+
+            ### Administrative
+            - [ ] Review any open issues from last week
+            - [ ] Update project board with completed tasks
+            - [ ] Plan priorities for the week ahead
+
+            ---
+            *This issue was automatically created by GitHub Actions.*
+            `
+            });

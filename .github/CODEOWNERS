@@ -1,0 +1,21 @@
+# CODEOWNERS - Automatic review assignment
+#
+# When a Pull Request modifies files matching these patterns,
+# the specified owners are automatically requested for review.
+#
+# Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
+* @farm-manager
+
+# Crop records - request review from crop specialist
+/crops/ @crop-lead
+
+# Livestock records - request review from livestock manager
+/livestock/ @livestock-lead
+
+# Equipment records - request review from equipment manager
+/equipment/ @equipment-lead
+
+# Compliance documents - require farm manager review
+/compliance/ @farm-manager
