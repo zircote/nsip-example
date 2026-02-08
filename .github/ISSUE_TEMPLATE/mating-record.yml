@@ -1,0 +1,60 @@
+---
+name: Mating Record
+description: Record a planned or completed mating
+labels: ["record:mating"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record a mating between a sire and dam. The NSIP
+        agent will enrich this record with inbreeding
+        coefficients, EBV comparison, and trait
+        complementarity.
+
+  - type: input
+    id: sire_lpn
+    attributes:
+      label: Sire LPN ID
+      description: The sire's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500123
+    validations:
+      required: true
+
+  - type: input
+    id: dam_lpn
+    attributes:
+      label: Dam LPN ID
+      description: The dam's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500456
+    validations:
+      required: true
+
+  - type: input
+    id: mating_date
+    attributes:
+      label: Mating Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: method
+    attributes:
+      label: Breeding Method
+      options:
+        - Natural
+        - Artificial Insemination
+        - Embryo Transfer
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Synchronization protocol, repeat mating,
+        or other observations.
+      placeholder: Any additional observations

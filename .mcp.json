@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nsip": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "ghcr.io/zircote/nsip", "mcp"]
+    }
+  }
+}

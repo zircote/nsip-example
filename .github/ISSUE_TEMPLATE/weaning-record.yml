@@ -1,0 +1,56 @@
+---
+name: Weaning Record
+description: Record weaning weights for a group of lambs
+labels: ["record:weaning"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record weaning data for a group of lambs.
+        The NSIP agent will enrich this record with
+        WWT EBVs, breed percentile rankings, and a
+        comparative summary table.
+
+  - type: input
+    id: weaning_date
+    attributes:
+      label: Weaning Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: weights
+    attributes:
+      label: Animal Weights
+      description: >-
+        One animal per line. Format each as
+        LPN_ID followed by weight in kg.
+      placeholder: |
+        500101: 28.5
+        500102: 31.2
+        500103: 26.8
+    validations:
+      required: true
+
+  - type: input
+    id: age_at_weaning
+    attributes:
+      label: Average Age at Weaning (days)
+      placeholder: e.g., 90
+
+  - type: input
+    id: management_group
+    attributes:
+      label: Management Group
+      description: >-
+        Paddock or mob identifier for this group.
+      placeholder: e.g., Paddock 3 - Spring 2025
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Any additional observations

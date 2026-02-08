@@ -1,0 +1,22 @@
+---
+name: "Copilot Setup Steps"
+
+"on": workflow_dispatch
+
+jobs:
+  copilot-setup-steps:
+    name: Copilot coding agent environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        # v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Install nsip binary
+        run: |
+          RELEASE_URL="https://github.com/zircote/nsip/releases/latest/download/nsip-x86_64-unknown-linux-gnu.tar.gz"
+          curl -fsSL "${RELEASE_URL}" | tar xz -C /usr/local/bin
+          nsip --version
+
+      - name: Pull NSIP MCP Docker image
+        run: docker pull ghcr.io/zircote/nsip

@@ -1,0 +1,79 @@
+---
+name: Health Record
+description: Record a health observation or treatment
+labels: ["record:health"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record a health event. The NSIP agent will
+        enrich this record with the animal's EBV
+        profile and, for parasite-related conditions,
+        WEC and PWEC breed percentiles.
+
+  - type: input
+    id: animal_lpn
+    attributes:
+      label: Animal LPN ID
+      description: >-
+        The animal's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500789
+    validations:
+      required: true
+
+  - type: input
+    id: event_date
+    attributes:
+      label: Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: condition
+    attributes:
+      label: Condition or Diagnosis
+      placeholder: e.g., Barber pole worm burden
+    validations:
+      required: true
+
+  - type: textarea
+    id: treatment
+    attributes:
+      label: Treatment Administered
+      description: >-
+        Drug name, dosage, route, and withholding
+        period.
+      placeholder: |
+        Drug: Ivermectin
+        Dose: 0.2 mg/kg oral
+        Withholding: 14 days meat
+
+  - type: input
+    id: body_condition
+    attributes:
+      label: Body Condition Score
+      description: Scale of 1 (emaciated) to 5 (obese).
+      placeholder: e.g., 3
+
+  - type: input
+    id: followup_date
+    attributes:
+      label: Follow-Up Date
+      description: >-
+        Date for re-examination, if needed.
+      placeholder: YYYY-MM-DD
+
+  - type: textarea
+    id: vet_notes
+    attributes:
+      label: Veterinarian Notes
+      placeholder: Clinical findings and prognosis
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      placeholder: Any other observations

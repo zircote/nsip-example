@@ -1,0 +1,90 @@
+---
+name: Flock Action
+description: >-
+  Run an NSIP flock analysis — mating recs,
+  evaluations, comparisons, rankings,
+  inbreeding checks, or flock profiles
+labels: ["flock-action"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request an automated flock analysis. The Copilot
+        agent will read this form, call the appropriate
+        NSIP MCP tools, and open a pull request with a
+        formatted report in `reports/`.
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action
+      description: What analysis do you need?
+      options:
+        - >-
+          Mating Recommendations —
+          optimal sire pairings per ewe
+        - >-
+          Evaluate Flock —
+          full EBV profiles, summary table
+        - >-
+          Compare Animals —
+          side-by-side EBV comparison
+        - >-
+          Rank Animals —
+          weighted trait index ranking
+        - >-
+          Inbreeding Matrix —
+          COI for all pairs
+        - >-
+          Flock Profile —
+          aggregate flock statistics
+    validations:
+      required: true
+
+  - type: textarea
+    id: lpn_ids
+    attributes:
+      label: LPN IDs
+      description: One LPN ID per line.
+      placeholder: |
+        430735-0032
+        430735-0041
+        430735-0089
+    validations:
+      required: true
+
+  - type: textarea
+    id: trait_weights
+    attributes:
+      label: Trait Weights
+      description: >-
+        For "Rank" action only. One TRAIT:weight
+        per line. Positive weights favor higher
+        EBVs; negative weights favor lower EBVs.
+      placeholder: |
+        WWT:2.0
+        BWT:-1.0
+        EMD:1.0
+        NLB:0.5
+
+  - type: input
+    id: sort_trait
+    attributes:
+      label: Sort Trait
+      description: >-
+        For "Compare" action only. Trait
+        abbreviation to sort the comparison
+        table by.
+      placeholder: e.g., WWT
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Additional context for the analysis.
+      placeholder: >-
+        Any breeding objectives or constraints
+        to consider

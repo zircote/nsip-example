@@ -1,0 +1,88 @@
+---
+name: Lambing Record
+description: Record a lambing event with birth details
+labels: ["record:lambing"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record a lambing event. The NSIP agent will
+        enrich this record with the dam's NLB and NLW
+        EBVs and breed-relative comparisons.
+
+  - type: input
+    id: dam_lpn
+    attributes:
+      label: Dam LPN ID
+      description: >-
+        The dam's Lambplan or Kid Plan ID number.
+      placeholder: e.g., 500456
+    validations:
+      required: true
+
+  - type: input
+    id: sire_lpn
+    attributes:
+      label: Sire LPN ID
+      description: >-
+        The sire's Lambplan or Kid Plan ID number,
+        if known.
+      placeholder: e.g., 500123
+
+  - type: input
+    id: lambing_date
+    attributes:
+      label: Lambing Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: number_born
+    attributes:
+      label: Number Born
+      description: Total lambs born including dead.
+      placeholder: e.g., 2
+    validations:
+      required: true
+
+  - type: input
+    id: number_alive
+    attributes:
+      label: Number Born Alive
+      placeholder: e.g., 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: lamb_details
+    attributes:
+      label: Lamb Details
+      description: >-
+        One lamb per line with sex and birth weight.
+      placeholder: |
+        Ewe: 4.2 kg
+        Ram: 4.8 kg
+
+  - type: dropdown
+    id: lambing_ease
+    attributes:
+      label: Lambing Ease Score
+      description: 1 = unassisted, 5 = veterinary.
+      options:
+        - "1 - Unassisted"
+        - "2 - Minor assistance"
+        - "3 - Moderate assistance"
+        - "4 - Significant assistance"
+        - "5 - Veterinary intervention"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Presentation, fostering, or other
+        observations.
+      placeholder: Any additional observations
