@@ -1,5 +1,7 @@
 # Rank Animals Report — Weighted Trait Index
 
+Closes #2
+
 **Date**: February 7, 2026  
 **Action**: Rank Animals — Weighted Trait Index Ranking  
 **Breed**: Katahdin  
@@ -53,13 +55,13 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.35 (63%) | 63% | -0.22 | Below average (43th percentile) |
-| WWT | +3.07 (61%) | 61% | +3.74 | Above average (66th percentile) |
-| YWT | +5.73 (53%) | 53% | +4.55 | Top 25% (75th percentile) |
-| PWWT | +5.90 (64%) | 64% | +3.77 | Top 25% (79th percentile) |
-| NLB | +0.13 (44%) | 44% | +0.06 | Below average (47th percentile) |
+| BWT | +0.35 | 63% | -0.22 | Above average (worse) (43rd percentile) |
+| WWT | +3.07 | 61% | +3.74 | Above average (66th percentile) |
+| YWT | +5.73 | 53% | +4.55 | Top 25% (75th percentile) |
+| PWWT | +5.90 | 64% | +3.77 | Top 25% (79th percentile) |
+| NLB | +0.13 | 44% | +0.06 | Below average (47th percentile) |
 
-**Analysis**: Strong weaning weight indicates good early growth. excellent yearling weight for market production. above-average fertility.
+**Analysis**: Strong weaning weight indicates good early growth. Excellent yearling weight for market production.
 
 ### 2. 6401492020FLE249
 
@@ -69,11 +71,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.24 (74%) | 74% | -0.18 | Below average (48th percentile) |
-| WWT | +3.04 (71%) | 71% | +4.32 | Above average (66th percentile) |
-| YWT | +3.55 (63%) | 63% | +3.35 | Above average (65th percentile) |
-| PWWT | +4.61 (73%) | 73% | +3.37 | Above average (71th percentile) |
-| NLB | +0.12 (57%) | 57% | +0.07 | Below average (45th percentile) |
+| BWT | +0.24 | 74% | -0.18 | Above average (worse) (48th percentile) |
+| WWT | +3.04 | 71% | +4.32 | Above average (66th percentile) |
+| YWT | +3.55 | 63% | +3.35 | Above average (65th percentile) |
+| PWWT | +4.61 | 73% | +3.37 | Above average (71st percentile) |
+| NLB | +0.12 | 57% | +0.07 | Below average (45th percentile) |
 
 **Analysis**: Strong weaning weight indicates good early growth.
 
@@ -85,13 +87,13 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.33 (65%) | 65% | -0.22 | Below average (44th percentile) |
-| WWT | +2.69 (63%) | 63% | +3.39 | Above average (62th percentile) |
-| YWT | +4.38 (55%) | 55% | +3.62 | Above average (69th percentile) |
-| PWWT | +4.78 (65%) | 65% | +3.11 | Above average (72th percentile) |
-| NLB | +0.11 (45%) | 45% | +0.05 | Below average (45th percentile) |
+| BWT | +0.33 | 65% | -0.22 | Above average (worse) (44th percentile) |
+| WWT | +2.69 | 63% | +3.39 | Above average (62nd percentile) |
+| YWT | +4.38 | 55% | +3.62 | Above average (69th percentile) |
+| PWWT | +4.78 | 65% | +3.11 | Above average (72nd percentile) |
+| NLB | +0.11 | 45% | +0.05 | Below average (45th percentile) |
 
-**Analysis**: Strong weaning weight indicates good early growth. excellent yearling weight for market production.
+**Analysis**: Strong weaning weight indicates good early growth. Excellent yearling weight for market production.
 
 ### 4. 6401492025FLE047
 
@@ -101,13 +103,13 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.43 (59%) | 59% | -0.25 | Below average (40th percentile) |
-| WWT | +2.95 (57%) | 57% | +3.36 | Above average (65th percentile) |
-| YWT | +5.04 (49%) | 49% | +3.70 | Above average (72th percentile) |
-| PWWT | +5.10 (60%) | 60% | +3.06 | Above average (74th percentile) |
-| NLB | +0.04 (36%) | 36% | +0.02 | Below average (38th percentile) |
+| BWT | +0.43 | 59% | -0.25 | Above average (worse) (40th percentile) |
+| WWT | +2.95 | 57% | +3.36 | Above average (65th percentile) |
+| YWT | +5.04 | 49% | +3.70 | Above average (72nd percentile) |
+| PWWT | +5.10 | 60% | +3.06 | Above average (74th percentile) |
+| NLB | +0.04 | 36% | +0.02 | Below average (38th percentile) |
 
-**Analysis**: Strong weaning weight indicates good early growth. excellent yearling weight for market production.
+**Analysis**: Strong weaning weight indicates good early growth. Excellent yearling weight for market production.
 
 ### 5. 6401492025FLE024
 
@@ -117,13 +119,13 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.47 (60%) | 60% | -0.28 | Below average (38th percentile) |
-| WWT | +2.84 (58%) | 58% | +3.29 | Above average (64th percentile) |
-| YWT | +4.58 (49%) | 49% | +3.37 | Above average (70th percentile) |
-| PWWT | +4.99 (60%) | 60% | +2.99 | Above average (73th percentile) |
-| NLB | +0.12 (36%) | 36% | +0.04 | Below average (46th percentile) |
+| BWT | +0.47 | 60% | -0.28 | Above average (worse) (38th percentile) |
+| WWT | +2.84 | 58% | +3.29 | Above average (64th percentile) |
+| YWT | +4.58 | 49% | +3.37 | Above average (70th percentile) |
+| PWWT | +4.99 | 60% | +2.99 | Above average (73rd percentile) |
+| NLB | +0.12 | 36% | +0.04 | Below average (46th percentile) |
 
-**Analysis**: Strong weaning weight indicates good early growth. excellent yearling weight for market production. above-average fertility.
+**Analysis**: Strong weaning weight indicates good early growth. Excellent yearling weight for market production.
 
 ### 6. 6401492025FLE008
 
@@ -133,13 +135,13 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.17 (62%) | 62% | -0.11 | Above average (52th percentile) |
-| WWT | +2.72 (61%) | 61% | +3.32 | Above average (63th percentile) |
-| YWT | +3.66 (53%) | 53% | +2.91 | Above average (65th percentile) |
-| PWWT | +4.55 (63%) | 63% | +2.87 | Above average (71th percentile) |
-| NLB | +0.17 (44%) | 44% | +0.07 | Above average (50th percentile) |
+| BWT | +0.17 | 62% | -0.11 | Below average (better) (52nd percentile) |
+| WWT | +2.72 | 61% | +3.32 | Above average (63rd percentile) |
+| YWT | +3.66 | 53% | +2.91 | Above average (65th percentile) |
+| PWWT | +4.55 | 63% | +2.87 | Above average (71st percentile) |
+| NLB | +0.17 | 44% | +0.07 | Above average (50th percentile) |
 
-**Analysis**: Strong weaning weight indicates good early growth. above-average fertility.
+**Analysis**: Strong weaning weight indicates good early growth. Above-average fertility.
 
 ### 7. 6401492025FLE029
 
@@ -149,11 +151,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.18 (58%) | 58% | -0.10 | Above average (51th percentile) |
-| WWT | +2.13 (56%) | 56% | +2.38 | Above average (56th percentile) |
-| YWT | +3.65 (49%) | 49% | +2.68 | Above average (65th percentile) |
-| PWWT | +4.04 (59%) | 59% | +2.39 | Above average (68th percentile) |
-| NLB | +0.12 (41%) | 41% | +0.05 | Below average (45th percentile) |
+| BWT | +0.18 | 58% | -0.10 | Below average (better) (51st percentile) |
+| WWT | +2.13 | 56% | +2.38 | Above average (56th percentile) |
+| YWT | +3.65 | 49% | +2.68 | Above average (65th percentile) |
+| PWWT | +4.04 | 59% | +2.39 | Above average (68th percentile) |
+| NLB | +0.12 | 41% | +0.05 | Below average (45th percentile) |
 
 **Analysis**: Balanced trait profile with moderate values across all traits.
 
@@ -165,11 +167,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.00 (61%) | 61% | -0.00 | Above average (59th percentile) |
-| WWT | +2.19 (59%) | 59% | +2.58 | Above average (57th percentile) |
-| YWT | +2.23 (52%) | 52% | +1.74 | Above average (58th percentile) |
-| PWWT | +3.52 (61%) | 61% | +2.15 | Above average (64th percentile) |
-| NLB | +0.18 (45%) | 45% | +0.08 | Above average (51th percentile) |
+| BWT | +0.00 | 61% | -0.00 | Below average (better) (59th percentile) |
+| WWT | +2.19 | 59% | +2.58 | Above average (57th percentile) |
+| YWT | +2.23 | 52% | +1.74 | Above average (58th percentile) |
+| PWWT | +3.52 | 61% | +2.15 | Above average (64th percentile) |
+| NLB | +0.18 | 45% | +0.08 | Above average (51st percentile) |
 
 **Analysis**: Above-average fertility.
 
@@ -181,11 +183,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | -0.23 (80%) | 80% | +0.18 | Above average (70th percentile) |
-| WWT | +1.23 (78%) | 78% | +1.92 | Below average (46th percentile) |
-| YWT | +1.00 (68%) | 68% | +1.02 | Above average (52th percentile) |
-| PWWT | +1.94 (80%) | 80% | +1.55 | Above average (55th percentile) |
-| NLB | +0.10 (55%) | 55% | +0.06 | Below average (44th percentile) |
+| BWT | -0.23 | 80% | +0.18 | Below average (better) (70th percentile) |
+| WWT | +1.23 | 78% | +1.92 | Below average (46th percentile) |
+| YWT | +1.00 | 68% | +1.02 | Above average (52nd percentile) |
+| PWWT | +1.94 | 80% | +1.55 | Above average (55th percentile) |
+| NLB | +0.10 | 55% | +0.06 | Below average (44th percentile) |
 
 **Analysis**: Low birth weight reduces birthing difficulties.
 
@@ -197,11 +199,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.27 (61%) | 61% | -0.16 | Below average (47th percentile) |
-| WWT | +1.26 (59%) | 59% | +1.49 | Below average (47th percentile) |
-| YWT | +2.13 (47%) | 47% | +1.50 | Above average (58th percentile) |
-| PWWT | +2.48 (58%) | 58% | +1.44 | Above average (58th percentile) |
-| NLB | -0.02 (38%) | 38% | -0.01 | Below average (33th percentile) |
+| BWT | +0.27 | 61% | -0.16 | Above average (worse) (47th percentile) |
+| WWT | +1.26 | 59% | +1.49 | Below average (47th percentile) |
+| YWT | +2.13 | 47% | +1.50 | Above average (58th percentile) |
+| PWWT | +2.48 | 58% | +1.44 | Above average (58th percentile) |
+| NLB | -0.02 | 38% | -0.01 | Below average (33rd percentile) |
 
 **Analysis**: Balanced trait profile with moderate values across all traits.
 
@@ -213,11 +215,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.30 (64%) | 64% | -0.20 | Below average (45th percentile) |
-| WWT | +1.61 (62%) | 62% | +2.00 | Above average (50th percentile) |
-| YWT | +0.64 (52%) | 52% | +0.50 | Above average (50th percentile) |
-| PWWT | +1.59 (61%) | 61% | +0.97 | Above average (53th percentile) |
-| NLB | -0.05 (50%) | 50% | -0.03 | Below average (29th percentile) |
+| BWT | +0.30 | 64% | -0.20 | Above average (worse) (45th percentile) |
+| WWT | +1.61 | 62% | +2.00 | Above average (50th percentile) |
+| YWT | +0.64 | 52% | +0.50 | Above average (50th percentile) |
+| PWWT | +1.59 | 61% | +0.97 | Above average (53rd percentile) |
+| NLB | -0.05 | 50% | -0.03 | Below average (29th percentile) |
 
 **Analysis**: Balanced trait profile with moderate values across all traits.
 
@@ -229,11 +231,11 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | -0.18 (66%) | 66% | +0.12 | Above average (67th percentile) |
-| WWT | -0.02 (64%) | 64% | -0.02 | Below average (33th percentile) |
-| YWT | -1.36 (55%) | 55% | -1.12 | Below average (40th percentile) |
-| PWWT | -0.92 (66%) | 66% | -0.61 | Below average (38th percentile) |
-| NLB | +0.06 (50%) | 50% | +0.03 | Below average (40th percentile) |
+| BWT | -0.18 | 66% | +0.12 | Below average (better) (67th percentile) |
+| WWT | -0.02 | 64% | -0.02 | Below average (33rd percentile) |
+| YWT | -1.36 | 55% | -1.12 | Below average (40th percentile) |
+| PWWT | -0.92 | 66% | -0.61 | Below average (38th percentile) |
+| NLB | +0.06 | 50% | +0.03 | Below average (40th percentile) |
 
 **Analysis**: Low birth weight reduces birthing difficulties.
 
@@ -257,7 +259,7 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 1. **Top-Ranked Females** (6401492025FLE087, 6401492020FLE249, 6401492025FLE082) show excellent growth traits and should be considered for retention as breeding stock.
 
-2. **Proven Sire** (6402382024NCS310) ranks well with high accuracy values due to 25 progeny. The negative BWT and positive growth traits make this ram valuable for breeding.
+2. **Proven Sire** (6402382024NCS310) has high-accuracy EBVs based on 25 progeny. Even though its composite index rank is mid-pack (#9), the combination of negative BWT and positive growth traits with 80% accuracy makes this ram a reliable, proven option for breeding.
 
 3. **Young Stock** born in 2025 have lower accuracy values (36-65%) since they lack progeny data. Rankings may change as more performance data becomes available.
 
