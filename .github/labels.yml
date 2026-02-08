@@ -1,10 +1,14 @@
+---
 # GitHub Labels for Farm Repository
 #
-# Use with GitHub Label Sync or apply manually in Settings > Labels
-# Colors are hex codes without the # prefix
+# Use with GitHub Label Sync or apply manually
+# in Settings > Labels.
+# Colors are hex codes without the # prefix.
 #
 # To apply these labels using gh CLI:
-#   gh label create "crops" --color "2E7D32" --description "Crop-related tasks and issues"
+#   gh label create "crops" \
+#     --color "2E7D32" \
+#     --description "Crop-related tasks and issues"
 
 # Domain Labels (What area of the farm)
 - name: crops
@@ -77,3 +81,37 @@
 - name: needs-review
   color: "AB47BC"
   description: "Ready for review or approval"
+
+# Breeding Record Labels
+- name: "record:mating"
+  color: "2E7D32"
+  description: "Planned or completed mating record"
+
+- name: "record:lambing"
+  color: "1565C0"
+  description: "Lambing event with birth details"
+
+- name: "record:health"
+  color: "C62828"
+  description: "Health observation or treatment record"
+
+- name: "record:weaning"
+  color: "F9A825"
+  description: "Weaning weights and dates"
+
+- name: "record:sale"
+  color: "6A1B9A"
+  description: "Animal sale or transfer record"
+
+- name: "record:death"
+  color: "37474F"
+  description: "Death or culling record"
+
+- name: enriched
+  color: "00838F"
+  description: "Agent has added NSIP genetic data"
+
+# Flock Action Labels
+- name: flock-action
+  color: "0D47A1"
+  description: "Automated flock analysis request"
