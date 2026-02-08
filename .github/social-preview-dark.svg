@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="100%" stop-color="#283593"/>
+    </linearGradient>
+    <linearGradient id="nightgrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33691E"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Night Sky -->
+  <rect width="1280" height="640" fill="url(#nightsky)"/>
+
+  <!-- Moon -->
+  <circle cx="1100" cy="100" r="50" fill="#FFF9C4" opacity="0.9"/>
+  <circle cx="1115" cy="90" r="40" fill="url(#nightsky)" opacity="0.7"/>
+
+  <!-- Stars -->
+  <g fill="#FFF9C4" opacity="0.7">
+    <circle cx="100" cy="50" r="2"/>
+    <circle cx="250" cy="30" r="1.5"/>
+    <circle cx="400" cy="70" r="2"/>
+    <circle cx="550" cy="25" r="1.5"/>
+    <circle cx="700" cy="55" r="2.5"/>
+    <circle cx="850" cy="40" r="1.5"/>
+    <circle cx="950" cy="80" r="2"/>
+    <circle cx="150" cy="120" r="1.5"/>
+    <circle cx="500" cy="100" r="2"/>
+    <circle cx="800" cy="130" r="1.5"/>
+    <circle cx="300" cy="90" r="1"/>
+    <circle cx="650" cy="45" r="1"/>
+    <circle cx="1000" cy="150" r="1.5"/>
+    <circle cx="1200" cy="60" r="2"/>
+  </g>
+
+  <!-- Rolling hills (background) -->
+  <ellipse cx="300" cy="420" rx="400" ry="80" fill="#2E7D32" opacity="0.4"/>
+  <ellipse cx="900" cy="400" rx="450" ry="90" fill="#388E3C" opacity="0.3"/>
+
+  <!-- Ground -->
+  <rect x="0" y="400" width="1280" height="240" fill="url(#nightgrass)"/>
+
+  <!-- Fence posts and rails -->
+  <g fill="#5D4037" stroke="#4E342E" stroke-width="1">
+    <rect x="50" y="350" width="8" height="100" rx="2"/>
+    <rect x="150" y="350" width="8" height="100" rx="2"/>
+    <rect x="250" y="350" width="8" height="100" rx="2"/>
+    <rect x="350" y="350" width="8" height="100" rx="2"/>
+    <rect x="50" y="370" width="308" height="6" rx="2" fill="#6D4C41"/>
+    <rect x="50" y="400" width="308" height="6" rx="2" fill="#6D4C41"/>
+  </g>
+
+  <!-- Barn -->
+  <g transform="translate(900, 250)">
+    <rect x="0" y="40" width="160" height="110" fill="#B71C1C" rx="4"/>
+    <polygon points="-10,40 80,-10 170,40" fill="#7F0000"/>
+    <rect x="55" y="80" width="50" height="70" fill="#3E2723" rx="3"/>
+    <circle cx="95" cy="115" r="3" fill="#FFD54F"/>
+    <circle cx="80" cy="55" r="12" fill="#3E2723"/>
+    <!-- Barn window glow -->
+    <circle cx="80" cy="55" r="10" fill="#FFF176" opacity="0.3"/>
+    <line x1="55" y1="80" x2="105" y2="150" stroke="#4E342E" stroke-width="2"/>
+    <line x1="105" y1="80" x2="55" y2="150" stroke="#4E342E" stroke-width="2"/>
+    <rect x="0" y="40" width="160" height="4" fill="white" opacity="0.1"/>
+  </g>
+
+  <!-- Sheep 1 (big, center-left) — sleeping -->
+  <g transform="translate(200, 420)">
+    <ellipse cx="0" cy="0" rx="45" ry="30" fill="#E0E0E0"/>
+    <circle cx="-30" cy="-10" r="15" fill="#D5D5D5"/>
+    <circle cx="30" cy="-10" r="15" fill="#D5D5D5"/>
+    <circle cx="-15" cy="-25" r="14" fill="#D5D5D5"/>
+    <circle cx="15" cy="-25" r="14" fill="#D5D5D5"/>
+    <circle cx="0" cy="-20" r="16" fill="#E0E0E0"/>
+    <ellipse cx="50" cy="-5" rx="18" ry="15" fill="#333333"/>
+    <!-- Closed eyes (sleeping) -->
+    <path d="M48,-12 Q53,-8 58,-12" fill="none" stroke="#9E9E9E" stroke-width="2" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M48,2 Q55,10 62,2" fill="none" stroke="#616161" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="40" cy="-18" rx="8" ry="4" fill="#424242" transform="rotate(-20,40,-18)"/>
+    <ellipse cx="60" cy="-18" rx="8" ry="4" fill="#424242" transform="rotate(20,60,-18)"/>
+    <!-- Zzz -->
+    <text x="70" y="-25" font-family="sans-serif" font-size="12" fill="#90CAF9" opacity="0.7">z</text>
+    <text x="80" y="-35" font-family="sans-serif" font-size="14" fill="#90CAF9" opacity="0.5">z</text>
+    <text x="92" y="-42" font-family="sans-serif" font-size="16" fill="#90CAF9" opacity="0.3">z</text>
+    <rect x="-20" y="22" width="6" height="30" fill="#333333" rx="3"/>
+    <rect x="15" y="22" width="6" height="30" fill="#333333" rx="3"/>
+    <rect x="-8" y="22" width="6" height="28" fill="#333333" rx="3"/>
+    <rect x="5" y="22" width="6" height="28" fill="#333333" rx="3"/>
+  </g>
+
+  <!-- Sheep 2 (smaller, behind, also sleeping) -->
+  <g transform="translate(120, 410) scale(0.7)">
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="#BDBDBD"/>
+    <circle cx="-25" cy="-10" r="12" fill="#B0B0B0"/>
+    <circle cx="25" cy="-10" r="12" fill="#B0B0B0"/>
+    <circle cx="0" cy="-18" r="14" fill="#BDBDBD"/>
+    <ellipse cx="42" cy="-3" rx="15" ry="12" fill="#333333"/>
+    <path d="M40,-8 Q45,-5 50,-8" fill="none" stroke="#9E9E9E" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="-15" y="18" width="5" height="25" fill="#333333" rx="2"/>
+    <rect x="10" y="18" width="5" height="25" fill="#333333" rx="2"/>
+  </g>
+
+  <!-- Sheep 3 (lamb) -->
+  <g transform="translate(280, 445) scale(0.5)">
+    <ellipse cx="0" cy="0" rx="35" ry="22" fill="#E0E0E0"/>
+    <circle cx="-20" cy="-8" r="10" fill="#D5D5D5"/>
+    <circle cx="20" cy="-8" r="10" fill="#D5D5D5"/>
+    <circle cx="0" cy="-15" r="12" fill="#E0E0E0"/>
+    <ellipse cx="38" cy="-2" rx="14" ry="11" fill="#333333"/>
+    <path d="M36,-6 Q42,-3 48,-6" fill="none" stroke="#9E9E9E" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="-12" y="15" width="4" height="20" fill="#333333" rx="2"/>
+    <rect x="8" y="15" width="4" height="20" fill="#333333" rx="2"/>
+  </g>
+
+  <!-- Chicken (roosting) -->
+  <g transform="translate(500, 445)">
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="#BF360C" transform="rotate(-10)"/>
+    <circle cx="22" cy="-12" r="10" fill="#BF360C"/>
+    <path d="M23,-14 Q27,-11 31,-14" fill="none" stroke="#795548" stroke-width="1.5" stroke-linecap="round"/>
+    <polygon points="32,-12 38,-10 32,-8" fill="#E65100"/>
+    <path d="M18,-22 Q20,-28 22,-22 Q24,-28 26,-22" fill="#B71C1C"/>
+  </g>
+
+  <!-- Duck (sleeping) -->
+  <g transform="translate(650, 440)">
+    <ellipse cx="0" cy="0" rx="28" ry="20" fill="#E0E0E0"/>
+    <ellipse cx="-5" cy="-5" rx="18" ry="12" fill="#BDBDBD" transform="rotate(-5)"/>
+    <!-- Head tucked in wing -->
+    <circle cx="15" cy="-15" r="11" fill="#2E7D32"/>
+    <path d="M18,-17 Q22,-14 26,-17" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="28" cy="-13" rx="8" ry="3" fill="#F9A825" opacity="0.7"/>
+    <path d="M-8,18 L-12,28 L-4,25 L0,30 L4,25 L10,28 L6,18" fill="#E65100"/>
+  </g>
+
+  <!-- Dog (curled up, sleeping) -->
+  <g transform="translate(430, 420)">
+    <ellipse cx="0" cy="10" rx="35" ry="22" fill="#6D4C41"/>
+    <circle cx="30" cy="-5" r="16" fill="#5D4037"/>
+    <ellipse cx="40" cy="0" rx="10" ry="7" fill="#8D6E63"/>
+    <ellipse cx="48" cy="-2" rx="3" ry="2.5" fill="#3E2723"/>
+    <path d="M32,-9 Q36,-6 40,-9" fill="none" stroke="#4E342E" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="18" cy="-16" rx="9" ry="12" fill="#4E342E" transform="rotate(15,18,-16)"/>
+    <path d="M22,5 Q32,12 40,5" fill="none" stroke="#C62828" stroke-width="3"/>
+    <circle cx="32" cy="10" r="2.5" fill="#FFD54F"/>
+    <!-- Tail curled around -->
+    <path d="M-32,5 Q-45,0 -40,-10 Q-35,-18 -25,-15" fill="none" stroke="#6D4C41" stroke-width="7" stroke-linecap="round"/>
+    <!-- Zzz -->
+    <text x="50" y="-20" font-family="sans-serif" font-size="10" fill="#90CAF9" opacity="0.7">z</text>
+    <text x="58" y="-28" font-family="sans-serif" font-size="12" fill="#90CAF9" opacity="0.5">z</text>
+    <text x="68" y="-35" font-family="sans-serif" font-size="14" fill="#90CAF9" opacity="0.3">z</text>
+  </g>
+
+  <!-- Fireflies -->
+  <g>
+    <circle cx="100" cy="430" r="3" fill="#FFEE58" opacity="0.6"/>
+    <circle cx="100" cy="430" r="6" fill="#FFEE58" opacity="0.15"/>
+    <circle cx="350" cy="470" r="2.5" fill="#FFEE58" opacity="0.5"/>
+    <circle cx="350" cy="470" r="5" fill="#FFEE58" opacity="0.12"/>
+    <circle cx="800" cy="450" r="3" fill="#FFEE58" opacity="0.6"/>
+    <circle cx="800" cy="450" r="6" fill="#FFEE58" opacity="0.15"/>
+    <circle cx="600" cy="410" r="2" fill="#FFEE58" opacity="0.4"/>
+    <circle cx="600" cy="410" r="4" fill="#FFEE58" opacity="0.1"/>
+    <circle cx="1100" cy="440" r="2.5" fill="#FFEE58" opacity="0.5"/>
+    <circle cx="1100" cy="440" r="5" fill="#FFEE58" opacity="0.12"/>
+  </g>
+
+  <!-- Title text -->
+  <g transform="translate(640, 580)">
+    <text x="2" y="2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#1B5E20" opacity="0.3">Sunny Acres Demo Farm</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#A5D6A7">Sunny Acres Demo Farm</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#81C784" opacity="0.8">GitHub-powered farm management with NSIP breeding intelligence</text>
+  </g>
+</svg>
