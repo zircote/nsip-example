@@ -11,7 +11,7 @@
 | **Holder** | John Smith |
 | **Issued** | March 15, 2024 |
 | **Expires** | March 15, 2027 |
-| **Categories** | 1A (Agricultural Plant), 1B (Agricultural Animal) |
+| **Categories** | 1A (Agricultural Plant) |
 
 **Continuing Education:**
 - Required: 6 hours before renewal
@@ -20,18 +20,13 @@
 
 ---
 
-### Dairy License
+### Egg Sales License
 
 | Field | Details |
 |-------|---------|
-| **License Type** | Grade A Dairy Farm |
-| **License Number** | DAIRY-2026-1234 |
-| **Issued** | January 1, 2026 |
-| **Expires** | December 31, 2026 |
-| **Inspections** | Quarterly |
-
-**Last Inspection:** February 10, 2026 — Passed
-**Next Inspection:** May 2026 (unannounced)
+| **License Type** | Virginia Egg License (Exempt — under 150 dozen/week) |
+| **Status** | Exempt — direct-to-consumer sales |
+| **Requirements** | Clean, graded, refrigerated, labeled with farm name and address |
 
 ---
 
@@ -56,15 +51,15 @@
 
 | Field | Details |
 |-------|---------|
-| **Permit Type** | CAFO General Permit |
+| **Permit Type** | Small Farm General Permit |
 | **Permit Number** | NMP-2025-0456 |
 | **Issued** | July 1, 2025 |
 | **Expires** | June 30, 2030 |
-| **Animal Units** | 45 AU (below 300 AU threshold) |
+| **Animal Units** | Under threshold |
 
 **Requirements:**
 - Maintain nutrient management plan (on file)
-- Annual manure application records
+- Annual manure/litter application records
 - No application within 100 ft of waterways
 
 ---
@@ -92,7 +87,6 @@
 |--------------|---------|---------------|
 | CDL | June 30, 2026 | Schedule renewal, vision test |
 | Pesticide License | March 15, 2027 | Complete 4 CE hours |
-| Dairy License | December 31, 2026 | Auto-renews with passing inspections |
 
 ## Training Records
 

@@ -14,9 +14,9 @@
 | **Status** | Active — Year 2 |
 
 **Funded Practices:**
-1. Cover crop establishment (120 acres) — $8,000/year
+1. Cover crop establishment — $8,000/year
 2. Nutrient management plan — $3,000 one-time
-3. Grassed waterway installation — $12,000 one-time
+3. Rotational grazing infrastructure — $12,000 one-time
 
 **Reporting Requirements:**
 
@@ -32,21 +32,6 @@
 - Field Office: County NRCS Office
 - Phone: (555) 234-5678
 - Assigned Conservationist: Mike Johnson
-
----
-
-### Dairy Margin Coverage (DMC)
-
-| Field | Details |
-|-------|---------|
-| **Program** | Dairy Margin Coverage |
-| **Agency** | USDA Farm Service Agency (FSA) |
-| **Coverage Level** | $9.50 margin, Tier 1 |
-| **Production History** | 180,000 lbs |
-| **Premium** | $0.15/cwt |
-| **Contract Year** | 2026 |
-
-**No reporting required** — payments automatic when margins fall below coverage level.
 
 ---
 
@@ -74,7 +59,6 @@
 | Date | Event | Program |
 |------|-------|---------|
 | June 15, 2026 | Q2 Report due | EQIP |
-| September 1, 2026 | DMC enrollment opens | DMC |
 | September 30, 2026 | Q3 Report due | EQIP |
 | October 15, 2026 | EQIP signup deadline | EQIP (new) |
 | December 31, 2026 | Q4 Report due | EQIP |
@@ -83,5 +67,4 @@
 
 - [ ] Submit Q2 EQIP report by June 15
 - [ ] Document cover crop seeding (photos + receipts)
-- [ ] Schedule NRCS field visit for waterway inspection
-- [ ] Renew DMC enrollment by September 30
+- [ ] Schedule NRCS field visit for grazing infrastructure inspection

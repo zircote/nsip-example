@@ -15,4 +15,3 @@ This folder contains regulatory compliance and grant tracking records for Epic P
 |---------|--------|--------|
 | EQIP Conservation | USDA NRCS | Active — Year 2 of 3 |
 | Organic Transition | State Ag Dept | Application pending |
-| Dairy Margin Coverage | USDA FSA | Enrolled |
