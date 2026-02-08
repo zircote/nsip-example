@@ -15,6 +15,6 @@ This folder contains all equipment-related records for Epic Pastures farm.
 | Equipment | Year | Status |
 |-----------|------|--------|
 | John Deere 6120M Tractor | 2019 | Operational |
-| Case IH 7150 Combine | 2017 | Operational |
 | Kubota ZD1211 Mower | 2021 | Operational |
-| Irrigation System | 2015 | Winterized |
+| Portable Fencing System | 2023 | Operational |
+| Walk-in Cooler (produce) | 2022 | Operational |

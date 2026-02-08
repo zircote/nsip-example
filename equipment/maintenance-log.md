@@ -5,9 +5,9 @@
 | Equipment | Last Service | Service Type | Next Service Due | Hours |
 |-----------|-------------|-------------|-----------------|-------|
 | John Deere 6120M Tractor | February 10, 2026 | Oil change, filters | At 1000 hours | 502 |
-| Case IH Combine | November 15, 2025 | Full annual service | November 2026 | 320 |
 | Kubota Mower | March 5, 2026 | Blade sharpening | Before first cutting | 185 |
-| Irrigation Pump | December 1, 2025 | Winterization | Spring startup | — |
+| Walk-in Cooler | January 15, 2026 | Compressor check | July 2026 | — |
+| Portable Fencing | March 1, 2026 | Battery/charger test | Monthly | — |
 
 ## Detailed Records
 
@@ -28,22 +28,6 @@
 
 ---
 
-### Case IH 7150 Combine
-
-**November 15, 2025 — Annual service**
-- Full hydraulic system service
-- Replaced belts (feeder house, separator)
-- Cleaned sieves and chaffer
-- Calibrated yield monitor
-- Lubricated all bearings
-- Inspected header (30-foot grain head)
-
-**Cost:** $1,450.00 (dealer service)
-
-**Next:** Pre-harvest inspection October 2026
-
----
-
 ### Kubota ZD1211 Mower
 
 **March 5, 2026 — Spring prep**
@@ -59,22 +43,37 @@
 
 ---
 
-### Irrigation System
+### Walk-in Cooler
 
-**December 1, 2025 — Winterization**
-- Drained all lines
-- Blew out with compressor
-- Removed and stored nozzles
-- Covered pump house
-- Checked electrical disconnects
+**January 15, 2026 — Semi-annual check**
+- Checked compressor operation
+- Verified thermostat calibration (34°F)
+- Inspected door gaskets
+- Cleaned condenser coils
 
-**Next:** Spring startup (April 1, 2026)
+**Cost:** $120.00 (service call)
+
+**Next:** July 2026
+
+---
+
+### Portable Fencing System
+
+**March 1, 2026 — Spring check**
+- Tested fence charger output (6,000V confirmed)
+- Replaced charger battery
+- Inspected all net rolls for damage
+- Repaired 2 broken posts
+
+**Cost:** $45.00 (battery + posts)
+
+**Next:** Monthly voltage checks during grazing season
 
 ## Upcoming Maintenance
 
 | Date | Equipment | Task | Estimated Cost |
 |------|-----------|------|----------------|
-| April 1, 2026 | Irrigation | Spring startup | $50 |
 | May 2026 | Tractor | Grease + inspect | $25 |
 | July 2026 | Mower | Blade sharpening | $40 |
+| July 2026 | Walk-in cooler | Semi-annual service | $120 |
 | August 2026 | Tractor | 1000-hour service | $300 |

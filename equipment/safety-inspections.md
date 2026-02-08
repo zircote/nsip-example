@@ -20,20 +20,6 @@ All equipment passed inspection unless noted.
 
 ---
 
-### Case IH 7150 Combine
-
-| Item | Status | Notes |
-|------|--------|-------|
-| Platform guards | Pass | All in place |
-| Ladder/steps | Pass | Secure |
-| Emergency stop | Pass | Tested |
-| Lights | Pass | All working |
-| SMV triangle | Pass | Visible |
-| Fire extinguisher | Pass | Charged |
-| Mirrors | Pass | Adjusted |
-
----
-
 ### Kubota ZD1211 Mower
 
 | Item | Status | Notes |
@@ -42,6 +28,16 @@ All equipment passed inspection unless noted.
 | Seat switch | Pass | Shuts off when standing |
 | Discharge chute | Pass | In place |
 | Lights | N/A | Daytime use only |
+
+---
+
+### Portable Fencing
+
+| Item | Status | Notes |
+|------|--------|-------|
+| Charger grounding | Pass | Proper ground rod installed |
+| Warning signs | Pass | Posted at all entry points |
+| Charger housing | Pass | Weather-sealed |
 
 ---
 
@@ -58,8 +54,8 @@ All equipment passed inspection unless noted.
 ## Inspector Notes
 
 - All major equipment meets OSHA requirements
-- Recommend adding reflective tape to grain wagons
 - Schedule fire extinguisher servicing for July
+- Ensure all pasture gates near electric fencing have proper signage
 
 ## Next Inspection
 
