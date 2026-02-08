@@ -1,5 +1,17 @@
 # Sunny Acres Demo Farm
 
+<!-- Social Preview -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/social-preview-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset=".github/social-preview.svg">
+  <img alt="Sunny Acres Demo Farm — happy farm animals on a green field" src=".github/social-preview.svg" width="100%">
+</picture>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/zircote/nsip-example?label=Records&color=blue)](https://github.com/zircote/nsip-example/issues)
+[![NSIP Integration](https://img.shields.io/badge/NSIP-Integrated-2E7D32)](https://nsip.org)
+[![GitHub Actions](https://img.shields.io/badge/Automation-GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/zircote/nsip-example/actions)
+
 Welcome to the Sunny Acres farm repository — your digital barn for all farm information.
 
 This repository does two things:
@@ -39,6 +51,14 @@ Click the **Issues** tab above, then **New issue** to create a record. Available
 - **Flock Action** — Request an automated flock analysis (compare, rank, mating recommendations)
 - **Crop Issue Report** — Report a field problem
 - **Equipment Maintenance** — Report an equipment issue
+
+---
+
+## How It Works
+
+<picture>
+  <img alt="How Sunny Acres Works — Create records, get automatic genetic enrichment, search your history" src=".github/readme-infographic.svg" width="100%">
+</picture>
 
 ---
 
