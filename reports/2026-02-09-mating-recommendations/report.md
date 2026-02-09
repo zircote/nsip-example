@@ -1,5 +1,7 @@
 # Mating Recommendations Report — 2026 Breeding Season
 
+Closes #3
+
 **Date**: February 9, 2026  
 **Action**: Mating Recommendations — Optimal Sire Pairings  
 **Breed**: Katahdin  
@@ -203,8 +205,8 @@ These ewes have exceptional growth traits and should be retained as the foundati
 **Strengths**: Best NLB in the group, good growth, manageable BWT.
 
 **Mating Recommendation**:
-- **Primary option**: 6402382024NCS310
-- **Predicted offspring**: BWT -0.03, WWT +1.97, YWT +2.33
+- **Primary option**: Use an unrelated external Katahdin ram with strong growth and fertility EBVs and a **Green** COI rating when checked against this ewe.
+- **Notes**: Do **not** mate this ewe to 6402382024NCS310, as she is his daughter; select an external sire using current NSIP data, and interpret predicted offspring EBVs based on the chosen ram's profile.
 
 ---
 
@@ -224,8 +226,7 @@ These ewes have exceptional growth traits and should be retained as the foundati
 **Strengths**: Balanced profile, lower BWT.
 
 **Mating Recommendation**:
-- **Primary option**: 6402382024NCS310
-- **Predicted offspring**: BWT -0.03, WWT +1.17, YWT +2.33
+- **Primary option**: Use an unrelated external ram (not 6402382024NCS310) due to close sire–daughter relationship and inbreeding risk.
 
 ---
 
@@ -245,8 +246,8 @@ These ewes have exceptional growth traits and should be retained as the foundati
 **Strengths**: Highest NLB in group (tied with FLE008), zero BWT.
 
 **Mating Recommendation**:
-- **Primary option**: 6402382024NCS310
-- **Predicted offspring**: BWT -0.12, WWT +1.71, YWT +1.61
+- **Primary option**: Use an unrelated external Katahdin ram (NSIP-ranked, Green COI) to introduce new genetics and avoid inbreeding with 6402382024NCS310, who is her sire.
+- **Notes**: Do **not** mate this ewe to 6402382024NCS310 (father–daughter mating). When selecting an external ram, target below-average BWT with above-average WWT/YWT and maintain or improve NLB.
 
 ---
 
@@ -261,7 +262,7 @@ These ewes have exceptional growth traits and should be retained as the foundati
 
 **Best suited for**:
 - Ewes with higher BWT (FLE087, FLE082, FLE047, FLE024)
-- First-time lambing ewes (all FLE025 animals)
+- First-time lambing ewes in this analysis group
 - Ewes where lambing ease is priority over maximum growth
 
 **Predicted offspring quality**: 
@@ -293,12 +294,12 @@ For maximum genetic progress, consider acquiring an external ram for:
 
 All recommended matings with 6402382024NCS310 have been evaluated for inbreeding risk. Key findings:
 
-| Ewe | Relationship to NCS310 | COI | Status |
-|-----|------------------------|-----|--------|
-| 6401492025FLE011 | Same sire (NCS310) | N/A | **Avoid — father-daughter mating** |
-| 6401492025FLE029 | Same sire (NCS310) | N/A | **Avoid — father-daughter mating** |
-| 6401492025FLE008 | Same sire (NCS310) | N/A | **Avoid — father-daughter mating** |
-| All others | Unrelated or distant | Low | **Safe to proceed** |
+| Ewe | Relationship to NCS310 | COI (predicted) | Status |
+|-----|------------------------|-----------------|--------|
+| 6401492025FLE011 | Same sire (NCS310) | ≥ 25.0% — Red | **Avoid — father-daughter mating** |
+| 6401492025FLE029 | Same sire (NCS310) | ≥ 25.0% — Red | **Avoid — father-daughter mating** |
+| 6401492025FLE008 | Same sire (NCS310) | ≥ 25.0% — Red | **Avoid — father-daughter mating** |
+| All others | Unrelated or distant | < 6.25% — Green | **Safe to proceed** |
 
 **Critical**: Three ewes (FLE011, FLE029, FLE008) are sired by NCS310 and **must not** be bred to him. These ewes require an external ram.
 
@@ -343,13 +344,12 @@ Based on flock analysis:
    - 6401492025FLE008 (daughter)
 
 2. **Source External Ram** for:
-   - Priority 1: Three daughters of NCS310
-   - Priority 2: 6401492022FLE002 (low growth needs compensation)
+   - Priority 1: Three daughters of NCS310 (FLE011, FLE029, FLE008)
+   - Priority 2: 6401492022FLE002 (low growth — requires external high-growth ram; NCS310 only as absolute **last resort**)
    - Priority 3: 6401492025FLE087 (top ewe — maximize genetic progress)
 
 3. **Breed to NCS310**:
    - 6401492020FLE249
-   - 6401492022FLE002 (only if no high-growth ram available)
    - 6401492023FLE078
    - 6401492025FLE024
    - 6401492025FLE047
