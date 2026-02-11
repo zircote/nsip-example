@@ -1,0 +1,91 @@
+---
+name: EOV Water Infiltration Test
+description: >-
+  Record a water infiltration test at a
+  monitoring site
+labels: ["record:eov-water-test"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record the results of a water infiltration test.
+        The system will compare your results to previous
+        tests and show whether water absorption is
+        improving.
+
+  - type: input
+    id: site_id
+    attributes:
+      label: Site ID
+      description: Which monitoring site was tested.
+      placeholder: e.g., P-03
+    validations:
+      required: true
+
+  - type: input
+    id: test_date
+    attributes:
+      label: Test Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: land_type
+    attributes:
+      label: Land Type
+      options:
+        - Pasture
+        - Crop field
+        - Riparian zone
+        - Woodlot
+
+  - type: input
+    id: infiltration_rate
+    attributes:
+      label: Infiltration Rate (inches/hour)
+      description: How fast water soaked into the ground.
+      placeholder: e.g., 1.5
+    validations:
+      required: true
+
+  - type: input
+    id: time_to_steady_state
+    attributes:
+      label: Time to Steady State (minutes)
+      description: How long until the rate stabilized.
+      placeholder: e.g., 15
+
+  - type: input
+    id: ring_diameter
+    attributes:
+      label: Ring Diameter (inches)
+      description: Size of the infiltration ring used.
+      placeholder: e.g., 6
+
+  - type: dropdown
+    id: soil_moisture_before
+    attributes:
+      label: Soil Moisture Before Test
+      options:
+        - Dry
+        - Moist
+        - Wet
+        - Saturated
+
+  - type: input
+    id: recent_rain
+    attributes:
+      label: Days Since Last Rain
+      placeholder: e.g., 3
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Test conditions, soil type, or anything
+        else worth noting.
+      placeholder: Any additional observations

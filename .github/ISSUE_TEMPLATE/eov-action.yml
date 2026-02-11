@@ -1,0 +1,77 @@
+---
+name: EOV Action
+description: >-
+  Request an automated EOV analysis — seasonal
+  summaries, site comparisons, trend reports,
+  or enrollment readiness checks
+labels: ["eov-action"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request an automated EOV analysis. The Copilot
+        agent will read this form, analyze your monitoring
+        data, and produce a report.
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action
+      description: What analysis do you need?
+      options:
+        - >-
+          Seasonal Summary —
+          aggregate all site scores for one season
+        - >-
+          Site Comparison —
+          compare indicators across selected sites
+        - >-
+          Annual Trend Report —
+          year-over-year changes at all sites
+        - >-
+          Enrollment Readiness Check —
+          assess readiness for Savory Institute enrollment
+    validations:
+      required: true
+
+  - type: dropdown
+    id: season
+    attributes:
+      label: Season
+      description: Which season to analyze (leave blank for all).
+      options:
+        - Spring
+        - Summer
+        - Fall
+        - Winter
+        - All
+
+  - type: textarea
+    id: site_ids
+    attributes:
+      label: Site IDs
+      description: >-
+        One site ID per line. Leave blank to include
+        all sites.
+      placeholder: |
+        P-01
+        P-02
+        C-01
+
+  - type: input
+    id: date_range
+    attributes:
+      label: Date Range
+      description: Optional. Defaults to most recent season.
+      placeholder: e.g., 2026-01 to 2026-06
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Additional context for the analysis.
+      placeholder: >-
+        Any specific questions or areas of focus

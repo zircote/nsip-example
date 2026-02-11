@@ -1,0 +1,44 @@
+---
+name: EOV Enrichment
+
+"on":
+  issues:
+    types: [opened]
+
+jobs:
+  assign-copilot:
+    if: >-
+      contains(
+        github.event.issue.labels.*.name,
+        'record:eov-site-assessment'
+      ) ||
+      contains(
+        github.event.issue.labels.*.name,
+        'record:eov-soil-sample'
+      ) ||
+      contains(
+        github.event.issue.labels.*.name,
+        'record:eov-water-test'
+      ) ||
+      contains(
+        github.event.issue.labels.*.name,
+        'record:eov-photo-point'
+      ) ||
+      contains(
+        github.event.issue.labels.*.name,
+        'eov-action'
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Assign Copilot coding agent
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh api \
+            --method POST \
+            "/repos/${REPO}/issues/${ISSUE}/assignees" \
+            -f "assignees[]=copilot-swe-agent"

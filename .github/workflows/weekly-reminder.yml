@@ -1,15 +1,15 @@
+---
 # Weekly Farm Task Reminder
-# This workflow creates a reminder issue every Monday at 8 AM UTC
+# Creates a reminder issue every Monday at 8 AM UTC
 #
-# Learners: This is an example of a scheduled GitHub Actions workflow.
-# You can modify the schedule (cron), title, and body to fit your farm's needs.
+# Learners: This is an example of a scheduled workflow.
+# Modify the schedule, title, and body to fit your needs.
 
 name: Weekly Farm Reminder
 
-on:
+"on":
   schedule:
     # Runs every Monday at 8:00 AM UTC
-    # Cron format: minute hour day-of-month month day-of-week
     - cron: '0 8 * * 1'
 
   # Allows manual triggering from the Actions tab
@@ -27,7 +27,9 @@ jobs:
         with:
           script: |
             const today = new Date();
-            const weekNumber = Math.ceil((today - new Date(today.getFullYear(), 0, 1)) / 604800000);
+            const start = new Date(today.getFullYear(), 0, 1);
+            const diff = today - start;
+            const weekNumber = Math.ceil(diff / 604800000);
 
             await github.rest.issues.create({
               owner: context.repo.owner,
@@ -50,8 +52,14 @@ jobs:
 
             ### Garden/Pasture
             - [ ] Scout garden beds for pest or disease signs
-            - [ ] Check pasture fencing and rotational grazing setup
+            - [ ] Check pasture fencing and rotational grazing
             - [ ] Review weather forecast for the week
+
+            ### Land & Ecology
+            - [ ] Walk monitoring sites if seasonal assessment is due
+            - [ ] Check photo points if conditions have changed
+            - [ ] Note any erosion, bare soil, or unusual vegetation
+            - [ ] Update grazing rotation notes in eov/
 
             ### Administrative
             - [ ] Review any open issues from last week

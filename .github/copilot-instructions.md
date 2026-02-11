@@ -58,14 +58,39 @@ Issues with the `flock-action` label request automated analyses. Parse the
 issue form fields, call the appropriate MCP tools, and produce a report PR
 in `reports/`. See `.github/instructions/flock-action.instructions.md`.
 
+### EOV (Ecological Outcome Verification)
+
+This farm tracks ecological health using the Savory Institute's EOV framework.
+Monitoring covers pastures, crop fields, riparian zones, and woodlots.
+
+#### EOV Records
+
+Issues with `record:eov-*` labels are ecological monitoring records. When an
+EOV record is opened, enrich it by:
+1. Comparing current scores to previous assessments at the same site
+2. Calculating trend direction (improving / stable / declining)
+3. Flagging any indicators that have dropped significantly
+4. Posting a formatted enrichment comment
+
+See `.github/instructions/eov.instructions.md` for the full enrichment
+workflow, indicator glossary, and formatting rules.
+
+#### EOV Actions
+
+Issues with the `eov-action` label request automated EOV analyses (seasonal
+summaries, site comparisons, trend reports). Parse the issue form fields,
+analyze the data, and produce a report PR in `reports/`.
+
 ## Labels
 
 Use these categories when suggesting labels:
 
-- Domain: crops, livestock, equipment, compliance
-- Type: maintenance, repair, inspection, planning, health
+- Domain: crops, livestock, equipment, compliance, eov
+- Type: maintenance, repair, inspection, planning, health, field-observation, verification
 - Priority: urgent, routine, seasonal
 - Status: waiting-on-parts, waiting-on-weather, waiting-on-vet
 - Breeding records: record:mating, record:lambing, record:health, record:weaning, record:sale, record:death
+- EOV records: record:eov-site-assessment, record:eov-soil-sample, record:eov-water-test, record:eov-photo-point
 - Flock actions: flock-action
-- Agent status: enriched
+- EOV actions: eov-action
+- Agent status: enriched, eov-enriched

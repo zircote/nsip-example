@@ -115,3 +115,39 @@
 - name: flock-action
   color: "0D47A1"
   description: "Automated flock analysis request"
+
+# EOV Domain Label
+- name: eov
+  color: "1B5E20"
+  description: "Ecological Outcome Verification records and tasks"
+
+# EOV Record Labels
+- name: "record:eov-site-assessment"
+  color: "33691E"
+  description: "Short-term monitoring site assessment"
+
+- name: "record:eov-soil-sample"
+  color: "795548"
+  description: "Soil core sampling and lab results"
+
+- name: "record:eov-water-test"
+  color: "0277BD"
+  description: "Water infiltration or quality test"
+
+- name: "record:eov-photo-point"
+  color: "00695C"
+  description: "Photo monitoring point documentation"
+
+# EOV Agent Labels
+- name: eov-enriched
+  color: "00838F"
+  description: "Agent has added EOV trend analysis"
+
+- name: eov-action
+  color: "1B5E20"
+  description: "Automated EOV analysis request"
+
+# EOV Task Type Label
+- name: verification
+  color: "2E7D32"
+  description: "Ecological verification or assessment"

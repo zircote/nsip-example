@@ -1,0 +1,98 @@
+---
+name: EOV Photo Point
+description: >-
+  Document a photo monitoring point at a
+  monitoring site
+labels: ["record:eov-photo-point"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Document what you see at a photo monitoring
+        point. Photos taken at the same spot each season
+        show how the land is changing over time.
+
+  - type: input
+    id: site_id
+    attributes:
+      label: Site ID
+      description: Which monitoring site.
+      placeholder: e.g., P-03
+    validations:
+      required: true
+
+  - type: input
+    id: photo_date
+    attributes:
+      label: Photo Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: season
+    attributes:
+      label: Season
+      options:
+        - Spring
+        - Summer
+        - Fall
+        - Winter
+    validations:
+      required: true
+
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Photo Direction
+      description: Which way the camera is pointing.
+      options:
+        - North
+        - East
+        - South
+        - West
+        - Overhead
+
+  - type: dropdown
+    id: land_type
+    attributes:
+      label: Land Type
+      options:
+        - Pasture
+        - Crop field
+        - Riparian zone
+        - Woodlot
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What You See
+      description: >-
+        Describe what the photo shows — plant cover,
+        bare ground, water, animal activity, etc.
+      placeholder: Describe the scene in your own words
+    validations:
+      required: true
+
+  - type: input
+    id: weather_conditions
+    attributes:
+      label: Weather Conditions
+      placeholder: e.g., Sunny, 72F, dry
+
+  - type: textarea
+    id: photo_upload
+    attributes:
+      label: Photos
+      description: >-
+        Drag and drop photos here, or paste image links.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Anything else worth noting about this photo point.
+      placeholder: Any additional observations

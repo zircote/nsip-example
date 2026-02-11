@@ -1,0 +1,119 @@
+---
+name: EOV Soil Sample
+description: >-
+  Record soil lab results for a monitoring site
+  (long-term monitoring)
+labels: ["record:eov-soil-sample"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record soil lab results when they come back.
+        The system will compare your results to previous
+        samples and show whether soil health is improving.
+
+  - type: input
+    id: site_id
+    attributes:
+      label: Site ID
+      description: Which monitoring site was sampled.
+      placeholder: e.g., P-03
+    validations:
+      required: true
+
+  - type: input
+    id: sample_date
+    attributes:
+      label: Sample Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: lab_name
+    attributes:
+      label: Lab Name
+      description: Name of the testing lab.
+      placeholder: e.g., Ward Laboratories
+
+  - type: input
+    id: sample_depth
+    attributes:
+      label: Sample Depth
+      description: How deep the core was taken.
+      placeholder: "0-30 cm"
+
+  - type: input
+    id: soil_ph
+    attributes:
+      label: Soil pH
+      placeholder: e.g., 6.5
+
+  - type: input
+    id: organic_matter_pct
+    attributes:
+      label: Organic Matter (%)
+      placeholder: e.g., 3.2
+
+  - type: input
+    id: organic_carbon_pct
+    attributes:
+      label: Organic Carbon (%)
+      placeholder: e.g., 1.9
+
+  - type: input
+    id: bulk_density
+    attributes:
+      label: Bulk Density (g/cm3)
+      placeholder: e.g., 1.35
+
+  - type: input
+    id: water_extractable_organic_carbon
+    attributes:
+      label: Water Extractable Organic Carbon (ppm)
+      description: Haney test result.
+      placeholder: e.g., 120
+
+  - type: input
+    id: soil_respiration
+    attributes:
+      label: Soil Respiration (mg CO2-C/kg)
+      description: Haney or CASH test result.
+      placeholder: e.g., 85
+
+  - type: input
+    id: aggregate_stability
+    attributes:
+      label: Aggregate Stability (%)
+      description: CASH test result.
+      placeholder: e.g., 45
+
+  - type: input
+    id: haney_score
+    attributes:
+      label: Haney Soil Health Score
+      description: Overall score from 0-50.
+      placeholder: e.g., 12.5
+
+  - type: input
+    id: available_phosphorus
+    attributes:
+      label: Available Phosphorus (ppm)
+      placeholder: e.g., 28
+
+  - type: input
+    id: available_potassium
+    attributes:
+      label: Available Potassium (ppm)
+      placeholder: e.g., 185
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Test type, sample conditions, or anything
+        else worth noting.
+      placeholder: Any additional observations

@@ -37,6 +37,7 @@ Just like a real filing cabinet has drawers and folders, this system is organize
 | **livestock/** | Animal head counts, feeding schedules, health records, vet visit logs |
 | **equipment/** | Equipment list, maintenance history, safety inspection results |
 | **compliance/** | Permits, certifications, grant tracking, government program records |
+| **eov/** | Ecological monitoring data, site maps, and land health goals |
 | **docs/** | This guide and step-by-step instructions (runbooks) for common tasks |
 
 To open any section, just **click on the folder name**. To go back, click the project name at the top of the page.
@@ -76,6 +77,10 @@ These are your "how-to" sheets. Each one walks you through a single task with nu
 | Report an equipment problem | [Reporting an Equipment Problem](runbooks/reporting-an-equipment-problem.md) |
 | Find old records | [Finding Your Records](runbooks/finding-your-records.md) |
 | Understand the weekly checklist | [The Weekly Farm Checklist](runbooks/weekly-farm-checklist.md) |
+| Record a site assessment (land health) | [Recording a Site Assessment](runbooks/recording-a-site-assessment.md) |
+| Record soil lab results | [Recording a Soil Sample](runbooks/recording-a-soil-sample.md) |
+| Record a water infiltration test | [Recording a Water Test](runbooks/recording-a-water-test.md) |
+| Ask the system to analyze your land health | [Requesting an EOV Analysis](runbooks/requesting-an-eov-analysis.md) |
 
 ---
 
@@ -142,6 +147,48 @@ You'll notice colored tags on records. These are **labels** that help organize t
 | **record:death** (dark gray) | A death or culling record |
 | **enriched** (teal) | Genetic data has been added to this record |
 | **flock-action** (dark blue) | An automated flock analysis request |
+
+---
+
+## Tracking Land Health (EOV)
+
+In addition to livestock and crop records, this system also tracks the **ecological health** of your land — whether the soil, water, plants, and wildlife are getting healthier over time.
+
+This is called **EOV** (Ecological Outcome Verification), and it's a way to prove that your farming practices are actually regenerating the land. Think of it as a **report card for your soil and pastures**.
+
+### What You'll Record
+
+| Record Type | What It's For | How Often |
+|---|---|---|
+| **Site Assessment** | Walk a monitoring site and score what you see (plant cover, soil condition, wildlife) | 4 times a year (each season) |
+| **Soil Sample** | Enter soil lab results when they come back | Every few years |
+| **Water Test** | Record how fast water soaks into the ground | Every few years |
+| **Photo Point** | Take a photo at a monitoring site to track visual changes | 4 times a year |
+
+### What Happens Automatically
+
+Just like with sheep records, the system adds helpful information after you submit an EOV record:
+
+- It **compares your scores** to previous visits at the same site
+- It shows whether each indicator is **improving, stable, or declining**
+- It calculates an overall **Ecological Health Index** for the site
+
+### Why It Matters
+
+Tracking ecological health can:
+- Show you which management practices are actually working
+- Help you decide where to focus improvements
+- Build a track record for Savory Institute certification (if the farm pursues it)
+- Open doors to premium markets that want proof of regenerative practices
+
+### Getting Started
+
+The monitoring sites are marked with posts around the farm. See the [site map](../eov/site-map.md) for locations. The runbooks below walk you through each type of record:
+
+- [Recording a Site Assessment](runbooks/recording-a-site-assessment.md)
+- [Recording a Soil Sample](runbooks/recording-a-soil-sample.md)
+- [Recording a Water Test](runbooks/recording-a-water-test.md)
+- [Requesting an EOV Analysis](runbooks/requesting-an-eov-analysis.md)
 
 ---
 

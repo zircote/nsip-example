@@ -1,0 +1,252 @@
+---
+name: EOV Site Assessment
+description: >-
+  Record ecological health indicators at a
+  monitoring site (short-term monitoring)
+labels: ["record:eov-site-assessment"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record what you see at a monitoring site. Score
+        each indicator as best you can — there are no
+        wrong answers. The system will track trends over
+        time and flag changes.
+
+  - type: input
+    id: site_id
+    attributes:
+      label: Site ID
+      description: Monitoring site identifier (e.g., P-03 for Pasture site 3).
+      placeholder: e.g., P-03
+    validations:
+      required: true
+
+  - type: input
+    id: assessment_date
+    attributes:
+      label: Assessment Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: season
+    attributes:
+      label: Season
+      options:
+        - Spring
+        - Summer
+        - Fall
+        - Winter
+    validations:
+      required: true
+
+  - type: dropdown
+    id: land_type
+    attributes:
+      label: Land Type
+      options:
+        - Pasture
+        - Crop field
+        - Riparian zone
+        - Woodlot
+    validations:
+      required: true
+
+  - type: dropdown
+    id: live_canopy
+    attributes:
+      label: Live Canopy Cover
+      description: How much living plant cover do you see?
+      options:
+        - Poor
+        - Below average
+        - Average
+        - Good
+        - Excellent
+    validations:
+      required: true
+
+  - type: dropdown
+    id: living_organisms
+    attributes:
+      label: Living Organisms
+      description: Insects, earthworms, birds, and other wildlife observed.
+      options:
+        - None observed
+        - Few
+        - Moderate
+        - Abundant
+        - Very abundant
+
+  - type: dropdown
+    id: warm_season_grasses
+    attributes:
+      label: Warm Season Grasses
+      options:
+        - Absent
+        - Weak
+        - Fair
+        - Vigorous
+        - Thriving
+
+  - type: dropdown
+    id: cool_season_grasses
+    attributes:
+      label: Cool Season Grasses
+      options:
+        - Absent
+        - Weak
+        - Fair
+        - Vigorous
+        - Thriving
+
+  - type: dropdown
+    id: forbs_legumes
+    attributes:
+      label: Forbs and Legumes
+      options:
+        - Absent
+        - Weak
+        - Fair
+        - Vigorous
+        - Thriving
+
+  - type: dropdown
+    id: trees_shrubs
+    attributes:
+      label: Trees and Shrubs
+      options:
+        - Absent
+        - Weak
+        - Fair
+        - Vigorous
+        - Thriving
+
+  - type: dropdown
+    id: desirable_species
+    attributes:
+      label: Desirable Species
+      description: Plants you want to see more of.
+      options:
+        - None
+        - Few
+        - Some
+        - Many
+        - Dominant
+
+  - type: dropdown
+    id: undesirable_species
+    attributes:
+      label: Undesirable Species
+      description: Weeds or invasive plants.
+      options:
+        - Dominant
+        - Many
+        - Some
+        - Few
+        - None
+
+  - type: dropdown
+    id: litter_abundance
+    attributes:
+      label: Litter Abundance
+      description: Dead plant material on the ground.
+      options:
+        - None
+        - Sparse
+        - Moderate
+        - Good
+        - Heavy
+
+  - type: dropdown
+    id: litter_decomposition
+    attributes:
+      label: Litter Decomposition
+      description: Is dead plant material breaking down?
+      options:
+        - None
+        - Slow
+        - Moderate
+        - Active
+        - Rapid
+
+  - type: dropdown
+    id: dung_decomposition
+    attributes:
+      label: Dung Decomposition
+      description: Is animal dung being broken down by insects and microbes?
+      options:
+        - None
+        - Slow
+        - Moderate
+        - Active
+        - Rapid
+
+  - type: dropdown
+    id: bare_soil
+    attributes:
+      label: Bare Soil
+      description: How much bare ground do you see?
+      options:
+        - ">75%"
+        - "50-75%"
+        - "25-50%"
+        - "10-25%"
+        - "<10%"
+
+  - type: dropdown
+    id: soil_capping
+    attributes:
+      label: Soil Capping / Crusting
+      description: Is the soil surface sealed or crusty?
+      options:
+        - Severe
+        - Moderate
+        - Light
+        - Minimal
+        - None
+
+  - type: dropdown
+    id: wind_erosion
+    attributes:
+      label: Wind Erosion
+      description: Signs of soil being blown away.
+      options:
+        - Severe
+        - Moderate
+        - Light
+        - Minimal
+        - None
+
+  - type: dropdown
+    id: water_erosion
+    attributes:
+      label: Water Erosion
+      description: Signs of soil being washed away (rills, gullies).
+      options:
+        - Severe
+        - Moderate
+        - Light
+        - Minimal
+        - None
+
+  - type: dropdown
+    id: photo_taken
+    attributes:
+      label: Photo Taken?
+      options:
+        - "Yes"
+        - "No"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: >-
+        Weather conditions, recent grazing activity,
+        or anything else worth noting.
+      placeholder: Any additional observations
