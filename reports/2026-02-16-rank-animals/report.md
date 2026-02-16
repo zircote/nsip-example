@@ -222,7 +222,7 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 | PWWT | +1.76 | 81% | +1.43 | Above average (54th percentile) |
 | NLB | +0.09 | 55% | +0.05 | Below average (43rd percentile) |
 
-**Analysis**: Proven sire with 25 progeny and excellent accuracy values (68-81%). Negative birth weight is highly desirable — reduces calving difficulty. Despite ranking 11th by WWT, the high accuracies and low BWT make this ram a reliable breeding option. Already sire to three ewes in this group (FLE011, FLE029, FLE008).
+**Analysis**: Proven sire with 25 progeny and excellent accuracy values (68-81%). Negative birth weight is highly desirable — reduces lambing difficulty. Despite ranking 11th by WWT, the high accuracies and low BWT make this ram a reliable breeding option. Already sire to three ewes in this group (FLE011, FLE029, FLE008).
 
 ### 12. 6401492022FLE002
 
