@@ -72,7 +72,7 @@ The collection includes 10 females and 2 males. Most animals are young (born in 
 
 | Trait | Value | Accuracy | Contribution to Score | Breed Position |
 |-------|-------|----------|----------------------|----------------|
-| BWT | +0.24 | 74% | -0.18 | Above average (worse) (53th percentile) |
+| BWT | +0.24 | 74% | -0.18 | Above average (worse) (53rd percentile) |
 | WWT | +3.05 | 71% | +4.33 | Top 25% (67th percentile) |
 | YWT | +3.63 | 63% | +3.43 | Above average (66th percentile) |
 | PWWT | +4.66 | 73% | +3.40 | Above average (71st percentile) |
