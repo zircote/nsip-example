@@ -14,8 +14,6 @@ on:
       - eov-action
     lock-for-agent: true
 
-reaction: eyes
-
 permissions:
   contents: read
   issues: read
@@ -26,21 +24,15 @@ engine: copilot
 tools:
   github:
     toolsets: [repos, issues, pull_requests, search]
-  bash:
-    allowed-commands: ["mkdir", "tee", "date"]
+  bash: ["mkdir", "tee", "date"]
 
 safe-outputs:
-  add-comment:
-    max: 3
-    discussions: false
+  add-comment: {}
   add-labels:
     allowed: [eov-enriched]
   create-pull-request:
     title-prefix: "[EOV] "
-    branch-prefix: "eov/"
-    max: 1
-  close-issue:
-    max: 1
+  close-issue: {}
 ---
 
 # EOV Enrichment Workflow

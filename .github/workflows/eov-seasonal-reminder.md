@@ -17,8 +17,7 @@ engine: copilot
 tools:
   github:
     toolsets: [issues]
-  bash:
-    allowed-commands: ["date"]
+  bash: ["date"]
 
 safe-outputs:
   create-issue:

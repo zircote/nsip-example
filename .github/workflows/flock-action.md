@@ -9,8 +9,6 @@ on:
     names: [flock-action]
     lock-for-agent: true
 
-reaction: eyes
-
 permissions:
   contents: read
   issues: read
@@ -21,8 +19,7 @@ engine: copilot
 tools:
   github:
     toolsets: [repos, issues, pull_requests]
-  bash:
-    allowed-commands: ["mkdir", "tee", "date", "git"]
+  bash: ["mkdir", "tee", "date", "git"]
 
 mcp-servers:
   nsip:
@@ -32,11 +29,7 @@ mcp-servers:
 safe-outputs:
   create-pull-request:
     title-prefix: "[Flock Action] "
-    branch-prefix: "flock-action/"
-    max: 1
-  add-comment:
-    max: 3
-    discussions: false
+  add-comment: {}
   add-labels:
     allowed: [enriched]
   close-issue:
