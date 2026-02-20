@@ -21,7 +21,6 @@ tools:
 
 safe-outputs:
   create-issue:
-    title-prefix: "EOV "
     labels: [eov, seasonal, verification]
     close-older-issues: true
     max: 1

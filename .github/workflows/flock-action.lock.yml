@@ -750,7 +750,7 @@ jobs:
                   "run",
                   "--rm",
                   "-i",
-                  "ghcr.io/zircote/nsip",
+                  "ghcr.io/zircote/nsip@sha256:a1480316dc0e122fdce2724fd0f255033d04c0830bcb4686605ea429d5b9e793",
                   "mcp"
                 ],
                 "tools": [
@@ -1186,6 +1186,7 @@ jobs:
 
   pre_activation:
     runs-on: ubuntu-slim
+    if: contains(github.event.issue.labels.*.name, 'flock-action')
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
     steps:
@@ -1276,7 +1277,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"enriched\"]},\"close_issue\":{\"max\":1},\"create_pull_request\":{\"base_branch\":\"${{ github.ref_name }}\",\"max\":1,\"max_patch_size\":1024,\"title_prefix\":\"[Flock Action] \"},\"missing_data\":{},\"missing_tool\":{}}"
+          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"enriched\"]},\"close_issue\":{\"max\":1},\"create_pull_request\":{\"base_branch\":\"${{ github.ref_name }}\",\"max\":1,\"max_patch_size\":1024},\"missing_data\":{},\"missing_tool\":{}}"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |

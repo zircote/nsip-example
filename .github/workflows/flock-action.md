@@ -24,11 +24,10 @@ tools:
 mcp-servers:
   nsip:
     command: "docker"
-    args: ["run", "--rm", "-i", "ghcr.io/zircote/nsip", "mcp"]
+    args: ["run", "--rm", "-i", "ghcr.io/zircote/nsip@sha256:a1480316dc0e122fdce2724fd0f255033d04c0830bcb4686605ea429d5b9e793", "mcp"]
 
 safe-outputs:
-  create-pull-request:
-    title-prefix: "[Flock Action] "
+  create-pull-request: {}
   add-comment: {}
   add-labels:
     allowed: [enriched]
