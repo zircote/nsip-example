@@ -1186,6 +1186,7 @@ jobs:
 
   pre_activation:
     runs-on: ubuntu-slim
+    if: contains(github.event.issue.labels.*.name, 'flock-action')
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
     steps:

@@ -1180,6 +1180,12 @@ jobs:
 
   pre_activation:
     runs-on: ubuntu-slim
+    if: |
+      contains(github.event.issue.labels.*.name, 'record:eov-site-assessment') ||
+      contains(github.event.issue.labels.*.name, 'record:eov-soil-sample') ||
+      contains(github.event.issue.labels.*.name, 'record:eov-water-test') ||
+      contains(github.event.issue.labels.*.name, 'record:eov-photo-point') ||
+      contains(github.event.issue.labels.*.name, 'eov-action')
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
     steps:
