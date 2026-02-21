@@ -44,7 +44,7 @@ run-name: "Flock Action Workflow"
 jobs:
   activation:
     needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true'
+    if: needs.pre_activation.outputs.activated == 'true' && contains(github.event.issue.labels.*.name, 'flock-action')
     runs-on: ubuntu-slim
     permissions:
       contents: read
@@ -434,7 +434,7 @@ jobs:
               "name": "add_comment"
             },
             {
-              "description": "Create a new GitHub pull request to propose code changes. Use this after making file edits to submit them for review and merging. The PR will be created from the current branch with your committed changes. For code review comments on an existing PR, use create_pull_request_review_comment instead. CONSTRAINTS: Maximum 1 pull request(s) can be created. Title will be prefixed with \"[Flock Action] \".",
+              "description": "Create a new GitHub pull request to propose code changes. Use this after making file edits to submit them for review and merging. The PR will be created from the current branch with your committed changes. For code review comments on an existing PR, use create_pull_request_review_comment instead. CONSTRAINTS: Maximum 1 pull request(s) can be created.",
               "inputSchema": {
                 "additionalProperties": false,
                 "properties": {
