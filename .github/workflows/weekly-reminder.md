@@ -19,7 +19,6 @@ tools:
 
 safe-outputs:
   create-issue:
-    title-prefix: "Weekly Farm Check - "
     labels: [routine, maintenance]
     max: 1
 ---
