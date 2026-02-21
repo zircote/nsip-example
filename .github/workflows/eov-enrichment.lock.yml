@@ -48,7 +48,13 @@ run-name: "EOV Enrichment Workflow"
 jobs:
   activation:
     needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true'
+    if: >-
+      needs.pre_activation.outputs.activated == 'true' &&
+      (contains(github.event.issue.labels.*.name, 'record:eov-site-assessment') ||
+       contains(github.event.issue.labels.*.name, 'record:eov-soil-sample') ||
+       contains(github.event.issue.labels.*.name, 'record:eov-water-test') ||
+       contains(github.event.issue.labels.*.name, 'record:eov-photo-point') ||
+       contains(github.event.issue.labels.*.name, 'eov-action'))
     runs-on: ubuntu-slim
     permissions:
       contents: read
