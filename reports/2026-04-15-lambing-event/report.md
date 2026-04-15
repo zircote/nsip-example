@@ -20,6 +20,7 @@ Closes #26
 | Number Born Alive | 1 |
 | Survival Rate | 100% |
 | Lambing Ease | 1 — Unassisted |
+| Lamb Sex | Ram lamb |
 | Lamb Description | White, healthy, large and strong |
 | Notes | — |
 
@@ -108,9 +109,9 @@ Calculated as midparent values: `(sire_EBV + dam_EBV) / 2`
 | YWT | +4.44 | +0.83 | **+2.63 lbs** | +0.37 | Well above midpoint — good market weights |
 | NLB | +0.11 | +0.09 | **+0.10 lambs** | +0.17 | Slightly below midpoint |
 
-**Offspring outlook**: This lamb is predicted to have a very manageable birth weight (below breed midpoint) while still showing above-average post-weaning and yearling growth. The sire's low BWT EBV offsets the dam's slightly elevated BWT, resulting in a balanced prediction. The lamb's description as "large and strong" at birth is encouraging — with a predicted BWT near breed average, the lamb is off to a great start.
+**Offspring outlook**: This ram lamb is predicted to have a very manageable birth weight (below breed midpoint) while still showing above-average post-weaning and yearling growth. The sire's low BWT EBV offsets the dam's slightly elevated BWT, resulting in a balanced prediction. The lamb's description as "large and strong" at birth is encouraging — with a predicted BWT near breed average, the lamb is off to a great start.
 
-If this lamb is a ewe and retained for breeding, her predicted NLB of +0.10 is slightly below the breed midpoint — she'll likely be a solid producer but may not be exceptional for litter size.
+As a ram lamb, EPC26005 carries good growth genetics from both parents. If he is evaluated and registered in NSIP, his performance records (WWT, PWWT, YWT) will contribute to both parents' EBV accuracy. If retained as a breeding ram, his predicted growth profile (WWT +1.98, YWT +2.63 above breed midpoint) and low BWT genetic contribution make him a reasonable sire candidate, though his dam's background genetics would need to be managed carefully to avoid future inbreeding within the Beyond Blessed Farm flock.
 
 ---
 
@@ -175,10 +176,10 @@ This is a **successful first lambing** for a yearling ewe. Key highlights:
 ### Recommended Next Steps
 
 1. **Record the birth weight** as soon as available and submit to NSIP — this is critical for updating both the dam's NLB accuracy and the sire's BWT progeny data.
-2. **Identify the lamb's sex** (ram or ewe) and record it. If a ewe lamb, consider registration in NSIP if she is retained for breeding.
+2. **Register the ram lamb (EPC26005)** in NSIP to begin building his performance record. As a male from a genotyped sire and a high-growth dam, he has potential sire value worth tracking.
 3. **Monitor lamb growth** — with a predicted WWT of +1.98 lbs above breed average, this lamb should show solid weaning growth. Record weaning weight (~60 days, around mid-June 2026) to add to both parents' progeny records.
 4. **Plan FLE082's next mating** — now that she has her first successful lambing, consider using a proven high-NLB sire for her second mating to begin building her fertility record. Her strong growth EBVs make her a valuable ewe to retain.
-5. **Confirm lamb LPN** (noted as EPC26005 in the issue title) for NSIP registration when ready.
+5. **Evaluate EPC26005 for future breeding use** — if retained as a ram, run an inbreeding check against any Beyond Blessed Farm ewes before use, since he shares dam-side genetics with the flock.
 
 ---
 
